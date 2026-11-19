@@ -418,5 +418,17 @@
   "guide.proStep6": "Choose supported document/subtitle formats and input files in the conversion tools. For batch processing, check the output format and folder, then open generated files from the results.",
   "guide.proStep7": "Select the archive extension first to reveal its password, split-volume and compression options. Included engines work without Keka. Check passwords, split parts and the destination when extracting.",
   "guide.proStep8": "Select multiple files/folders and open Timed internet sharing. Append with Add files/folders or drag and drop; remove unwanted entries from the list. Set the duration and share the link after external verification finishes. Multiple files/folders use a ZIP snapshot; inspect the access/download log tab for activity.",
-  "guide.proStep9": "After activating Pro, choose an installed app or specify one in terminal settings. Open Terminal in current folder or start an SSH task to use the selected app."
+  "guide.proStep9": "After activating Pro, choose an installed app or specify one in terminal settings. Open Terminal in current folder or start an SSH task to use the selected app.",
+  "guide.proScreens": "These are actual screenshots of the Pro 1.18 test build, in the language selected on this website. Click an image to enlarge it. In the app, Settings → Menu language offers Korean, English, Japanese, German, French and Simplified/Traditional Chinese, and updates open editors. Pro is coming soon.",
+  "guide.shot.image": "Image editing and output formats",
+  "guide.shot.pdf-edit": "PDF pages, text and shapes",
+  "guide.shot.pdf-tools": "PDF tools and archival settings",
+  "guide.shot.audio": "Stereo waveforms and left-channel selection",
+  "guide.shot.video": "Video preview, trim and output settings",
+  "guide.shot.documents": "Document conversion and batch jobs",
+  "guide.shot.archive": "Archive format and advanced options",
+  "guide.shot.sharing": "Files and folders ready to share · example before sharing starts",
+  "guide.shot.terminal": "Menu language and Pro terminal app selection",
+  "guide.shot.collage-shapes": "Heart arrangement and photo shapes",
+  "guide.shot.collage-text": "Collage text with font, size and color controls"
 }

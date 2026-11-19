@@ -418,5 +418,17 @@
   "guide.proStep6": "選擇支援的文件/字幕格式及輸入檔案。批次處理前確認輸出格式和資料夾，並從結果中開啟產生的檔案。",
   "guide.proStep7": "先選壓縮副檔名，再設定該格式支援的密碼、分卷和壓縮程度。已內建引擎，無需安裝 Keka。解壓縮時確認密碼、全部分卷和目標位置。",
   "guide.proStep8": "選擇多個檔案/資料夾並開啟限時網際網路分享。透過加入按鈕或拖放追加項目，從清單移除不需要的項目。設定時長，外部驗證完成後再傳送連結。多個項目以 ZIP 副本分享，在存取/下載紀錄分頁查看活動。",
-  "guide.proStep9": "啟用 Pro 後，在終端機設定中選擇已安裝的應用程式或直接指定程式。在目前資料夾開啟終端機或執行 SSH 操作時會使用該程式。"
+  "guide.proStep9": "啟用 Pro 後，在終端機設定中選擇已安裝的應用程式或直接指定程式。在目前資料夾開啟終端機或執行 SSH 操作時會使用該程式。",
+  "guide.proScreens": "以下為 Pro 1.18 測試版的實際截圖，App 介面語言與本網站所選語言一致。點擊圖片可放大。在 App 的「設定 → 選單語言」中，可選擇韓語、英語、日語、德語、法語及簡體／繁體中文，並立即套用至已開啟的編輯視窗。Pro 即將推出。",
+  "guide.shot.image": "圖片編輯與輸出格式",
+  "guide.shot.pdf-edit": "PDF 頁面、文字與形狀編輯",
+  "guide.shot.pdf-tools": "PDF 工具與封存設定",
+  "guide.shot.audio": "立體聲波形與左聲道區間選取",
+  "guide.shot.video": "影片預覽、裁剪與輸出設定",
+  "guide.shot.documents": "文件轉換與批次處理",
+  "guide.shot.archive": "壓縮格式與進階選項",
+  "guide.shot.sharing": "檔案與資料夾分享準備、尚未開始分享的範例",
+  "guide.shot.terminal": "選單語言與 Pro 終端機 App 選擇",
+  "guide.shot.collage-shapes": "愛心排列與照片形狀",
+  "guide.shot.collage-text": "拼貼文字的字體、大小與顏色設定"
 }

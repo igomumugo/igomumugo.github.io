@@ -28,3 +28,19 @@ document.querySelectorAll('[data-theme]').forEach(button => button.addEventListe
 }));
 document.addEventListener('filedesk:language', updateThemeCaption);
 updateThemeCaption();
+function updateProScreenshots() {
+  const language = document.documentElement.lang;
+  const supported = ['ko', 'en', 'ja', 'de', 'fr', 'zh-Hans', 'zh-Hant'];
+  const locale = supported.includes(language) ? language : 'en';
+  document.querySelectorAll('[data-pro-shot]').forEach(link => {
+    const src = `assets/screenshots/pro/${locale}/${link.dataset.proShot}.png`;
+    link.href = src;
+    link.querySelector('img').src = src;
+  });
+  if (dialog.open && opener?.dataset.proShot) {
+    dialog.querySelector('img').src = opener.href;
+    dialog.querySelector('img').alt = opener.querySelector('img').alt;
+  }
+}
+document.addEventListener('filedesk:language', updateProScreenshots);
+updateProScreenshots();

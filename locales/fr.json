@@ -418,5 +418,17 @@
   "guide.proStep6": "Choisissez les formats de document/sous-titres pris en charge et les fichiers source. Pour un lot, vérifiez format et destination, puis ouvrez les fichiers générés depuis les résultats.",
   "guide.proStep7": "Choisissez d’abord l’extension de l’archive pour afficher ses options de mot de passe, fractionnement et compression. Les moteurs inclus fonctionnent sans Keka. Vérifiez mot de passe, volumes et destination lors de l’extraction.",
   "guide.proStep8": "Sélectionnez plusieurs fichiers/dossiers et ouvrez le partage Internet temporaire. Ajoutez par bouton ou glisser-déposer, et retirez les entrées inutiles de la liste. Fixez la durée et transmettez le lien après vérification externe. Plusieurs éléments sont partagés en copie ZIP ; consultez les accès et téléchargements dans l’onglet du journal.",
-  "guide.proStep9": "Après activation de Pro, choisissez une application installée ou indiquez-en une dans les réglages du terminal. Ouvrir le terminal dans le dossier courant et les tâches SSH utilisent cette application."
+  "guide.proStep9": "Après activation de Pro, choisissez une application installée ou indiquez-en une dans les réglages du terminal. Ouvrir le terminal dans le dossier courant et les tâches SSH utilisent cette application.",
+  "guide.proScreens": "Ces captures réelles de la version de test Pro 1.18 suivent la langue choisie sur ce site. Cliquez sur une image pour l’agrandir. Dans l’app, Réglages → Langue des menus propose le coréen, l’anglais, le japonais, l’allemand, le français et le chinois simplifié/traditionnel, y compris dans les éditeurs ouverts. Pro sera bientôt disponible.",
+  "guide.shot.image": "Retouche d’image et formats de sortie",
+  "guide.shot.pdf-edit": "Pages PDF, texte et formes",
+  "guide.shot.pdf-tools": "Outils PDF et paramètres d’archivage",
+  "guide.shot.audio": "Formes d’onde stéréo et sélection du canal gauche",
+  "guide.shot.video": "Aperçu vidéo, découpage et sortie",
+  "guide.shot.documents": "Conversion de documents et traitement par lots",
+  "guide.shot.archive": "Format d’archive et options avancées",
+  "guide.shot.sharing": "Fichiers et dossiers à partager · exemple avant le démarrage",
+  "guide.shot.terminal": "Langue des menus et choix du terminal Pro",
+  "guide.shot.collage-shapes": "Disposition en cœur et formes des photos",
+  "guide.shot.collage-text": "Texte du collage : police, taille et couleur"
 }

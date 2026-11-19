@@ -418,5 +418,17 @@
   "guide.proStep6": "Wählen Sie unterstützte Dokument-/Untertitelformate und Eingabedateien. Prüfen Sie bei Stapeln Ausgabeformat und Zielordner; erzeugte Dateien lassen sich aus den Ergebnissen öffnen.",
   "guide.proStep7": "Wählen Sie zuerst die Archiverweiterung; passende Passwort-, Teilarchiv- und Kompressionsoptionen erscheinen. Enthaltene Programme benötigen kein Keka. Prüfen Sie beim Entpacken Passwort, alle Teile und Zielordner.",
   "guide.proStep8": "Wählen Sie mehrere Dateien/Ordner und öffnen Sie die zeitlich begrenzte Internetfreigabe. Ergänzen Sie die Liste per Schaltfläche oder Drag-and-drop und entfernen Sie unerwünschte Einträge. Wählen Sie die Dauer und geben Sie den Link nach externer Prüfung weiter. Mehrere Elemente werden als ZIP-Kopie geteilt; Zugriffe und Downloads stehen im Protokolltab.",
-  "guide.proStep9": "Wählen Sie nach der Pro-Aktivierung in den Terminaleinstellungen eine installierte App oder geben Sie eine an. Terminal im aktuellen Ordner öffnen und SSH-Aufgaben verwenden diese App."
+  "guide.proStep9": "Wählen Sie nach der Pro-Aktivierung in den Terminaleinstellungen eine installierte App oder geben Sie eine an. Terminal im aktuellen Ordner öffnen und SSH-Aufgaben verwenden diese App.",
+  "guide.proScreens": "Dies sind echte Screenshots der Testversion Pro 1.18 in der auf dieser Website gewählten Sprache. Zum Vergrößern auf ein Bild klicken. Unter Einstellungen → Menüsprache stehen Koreanisch, Englisch, Japanisch, Deutsch, Französisch sowie vereinfachtes und traditionelles Chinesisch zur Auswahl. Die Änderung gilt auch für geöffnete Editoren. Pro erscheint demnächst.",
+  "guide.shot.image": "Bildbearbeitung und Ausgabeformate",
+  "guide.shot.pdf-edit": "PDF-Seiten, Text und Formen",
+  "guide.shot.pdf-tools": "PDF-Werkzeuge und Archivierung",
+  "guide.shot.audio": "Stereowellenformen und Auswahl im linken Kanal",
+  "guide.shot.video": "Videovorschau, Zuschnitt und Ausgabe",
+  "guide.shot.documents": "Dokumentkonvertierung und Stapelverarbeitung",
+  "guide.shot.archive": "Archivformat und erweiterte Optionen",
+  "guide.shot.sharing": "Dateien und Ordner zur Freigabe · Beispiel vor dem Start",
+  "guide.shot.terminal": "Menüsprache und Terminal-App für Pro",
+  "guide.shot.collage-shapes": "Herzanordnung und Fotoformen",
+  "guide.shot.collage-text": "Collagetext mit Schriftart, Größe und Farbe"
 }
