@@ -33,7 +33,7 @@ function updateProScreenshots() {
   const supported = ['ko', 'en', 'ja', 'de', 'fr', 'zh-Hans', 'zh-Hant'];
   const locale = supported.includes(language) ? language : 'en';
   document.querySelectorAll('[data-pro-shot]').forEach(link => {
-    const src = `assets/screenshots/pro/${locale}/${link.dataset.proShot}.png`;
+    const src = `assets/screenshots/pro/${locale}/${link.dataset.proShot}.png?v=pro119`;
     link.href = src;
     link.querySelector('img').src = src;
   });
