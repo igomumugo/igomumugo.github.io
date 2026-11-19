@@ -354,7 +354,7 @@
   "new.6.title": "Organize files and basic archives",
   "new.6.body": "Chain rename rules and insert dates or positions, review leftover app files, browse/preview archives and extract selected items. Basic ZIP and TAR.GZ creation remains a standard feature.",
   "pro.1.title": "Image editing and conversion",
-  "pro.1.body": "Crop, rotate and resize with a preview. Toggle grayscale, flips, background removal and metadata removal. Choose JPG, PNG, HEIC, WebP, AVIF and more; reduce size, combine images, assemble PDFs and read QR codes. Collages support up to 20 photos, 36 layouts per count, reframing, zoom, borders and background controls.",
+  "pro.1.body": "Crop, rotate and resize with a preview. Toggle grayscale, flips, background removal and metadata removal. Choose JPG, PNG, HEIC, WebP, AVIF and more; reduce size, combine images, assemble PDFs and read QR codes. Collages support up to 20 photos, 36 layouts for each count from 2–20, reframing, zoom, borders and background controls.",
   "pro.2.title": "PDF pages and annotations",
   "pro.2.body": "Reorder, rotate, delete, merge, split, extract and compress pages. Add, move, resize or delete text, images, shapes, highlights, notes and signatures. Manage redaction, watermarks, page numbers, passwords and document information.",
   "pro.3.title": "PDF conversion, OCR and tools",
