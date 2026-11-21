@@ -3,10 +3,9 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title data-i18n="tour.heading">FileDesk Pro 1.37 기능 둘러보기</title>
 <meta name="description" data-i18n-content="tour.intro" content="이미지·PDF·오디오·영상 편집부터 문서 변환, 압축, 파일 공유까지. 기능을 선택해 작업 순서와 실제 앱 화면을 살펴보세요.">
-<link rel="icon" href="assets/icon.png"><link rel="stylesheet" href="style.css?v=2840148d09d8"><link rel="stylesheet" href="editions.css?v=3af229e6ce2f">
-<script src="i18n.js?v=04ad84424f9c" defer></script></head><body>
+<link rel="icon" href="assets/icon.png"><link rel="stylesheet" href="style.css?v=2840148d09d8"><link rel="stylesheet" href="editions.css?v=68fea9244137">
+<script src="i18n.js?v=41b7df076021" defer></script></head><body>
 <header><a class="brand" href="./"><img src="assets/icon.png" alt="">FileDesk</a><div class="header-actions"><nav aria-label="주 메뉴" data-i18n-aria-label="index.053"><a data-i18n="nav.features" href="features.html">새 기능</a><a data-i18n="nav.pro" href="pro.html" aria-current="page">Pro · 출시 예정</a><a href="guide.html" data-i18n="index.002">사용 설명서</a><a href="./#download" data-i18n="editions.standardDownload">일반판 다운로드</a><a href="privacy.html" data-i18n="index.004">개인정보처리방침</a><a href="support.html" data-i18n="support.support">지원 게시판</a></nav><label class="language-control"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><span class="sr-only" data-i18n="common.language">언어 선택</span><select id="site-language" name="language" data-i18n-aria-label="common.language" aria-label="언어 선택"><option value="ko" lang="ko">한국어</option><option value="en" lang="en">English</option><option value="ja" lang="ja">日本語</option><option value="de" lang="de">Deutsch</option><option value="fr" lang="fr">Français</option><option value="zh-Hans" lang="zh-Hans">简体中文</option><option value="zh-Hant" lang="zh-Hant">繁體中文</option></select></label></div></header>
-
 <main class="edition-main edition-pro-preview">
 <div class="edition-intro">
 <span data-i18n="pro.status" class="status-badge">출시 예정</span>
@@ -33,6 +32,7 @@
 <a data-i18n="proAll.results" href="#results">변환 도구 열기와 결과 저장</a>
 <a data-i18n="tour.shared" href="#shared">Pro에서 함께 쓰는 일반 기능</a>
 </nav>
+<p data-i18n="tour.toolScope" class="pro-tool-scope">변환 도구는 선택한 파일의 종류와 개수에 맞춰 표시됩니다. 일부 문서의 PDF 출력에는 호환되는 문서 앱이 필요합니다. 압축 옵션은 형식별로 다릅니다.</p>
 <p class="pro-history-nav"><strong data-i18n="tour.previous">버전별 소개</strong>　<a data-i18n="tour.preview137" href="#pro-preview-137">Pro 1.37 · 콜라주 회전</a> · <a data-i18n="tour.preview136" href="#pro-preview-136">Pro 1.36 · 콜라주 앨범과 테마</a> · <a data-i18n="tour.previousGuide" href="#pro-preview-119">기존 Pro 사용 안내와 화면</a></p>
 </section>
 <section id="pro-preview-119" class="pro-capture-credit">
@@ -45,6 +45,42 @@
 </div>
 <figure class="pro-screen"><a href="assets/screenshots/pro/en/image.png"><img src="assets/screenshots/pro/en/image.png" loading="lazy" decoding="async" data-i18n-alt="guide.shot.image" alt="이미지 편집과 출력 형식 선택"></a><figcaption data-i18n="guide.shot.image">이미지 편집과 출력 형식 선택</figcaption></figure>
 </div>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.image-edit">이미지 편집</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.image-edit.crop" data-pro-action="image-edit.crop">선택 영역 자르기</li>
+<li data-i18n="proTool.image-edit.rotate" data-pro-action="image-edit.rotate">90° 회전</li>
+<li data-i18n="proTool.image-edit.resize" data-pro-action="image-edit.resize">크기 적용</li>
+<li data-i18n="proTool.image-edit.aspect" data-pro-action="image-edit.aspect">가로세로 비율 유지</li>
+<li data-i18n="proTool.image-edit.quality" data-pro-action="image-edit.quality">저장 품질</li>
+<li data-i18n="proTool.image-edit.grayscale" data-pro-action="image-edit.grayscale">흑백</li>
+<li data-i18n="proTool.image-edit.remove-background" data-pro-action="image-edit.remove-background">배경 제거</li>
+<li data-i18n="proTool.image-edit.flip-x" data-pro-action="image-edit.flip-x">좌우 반전</li>
+<li data-i18n="proTool.image-edit.flip-y" data-pro-action="image-edit.flip-y">상하 반전</li>
+<li data-i18n="proTool.image-edit.strip" data-pro-action="image-edit.strip">메타데이터 제거</li>
+<li data-i18n="proTool.image-edit.compress" data-pro-action="image-edit.compress">용량 줄이기</li>
+<li data-i18n="proTool.image-edit.ocr" data-pro-action="image-edit.ocr">글자 읽기</li>
+<li data-i18n="proTool.image-edit.qr" data-pro-action="image-edit.qr">QR·바코드</li>
+<li data-i18n="proTool.image-edit.copy-text" data-pro-action="image-edit.copy-text">읽은 내용 복사</li>
+<li data-i18n="proTool.image-edit.search-pdf" data-pro-action="image-edit.search-pdf">검색 가능한 PDF로 저장</li>
+<li data-i18n="proTool.image-edit.combine-pdf" data-pro-action="image-edit.combine-pdf">PDF 한 파일로 저장</li>
+<li data-i18n="proTool.image-edit.decorate" data-pro-action="image-edit.decorate">텍스트·모양 편집 열기</li>
+<li data-i18n="proTool.image-edit.collage" data-pro-action="image-edit.collage">콜라주 미리보기·편집</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.image-output">이미지 · 저장 형식</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.image-output.jpg" data-pro-action="image-output.jpg">JPG</li>
+<li data-i18n="proTool.image-output.png" data-pro-action="image-output.png">PNG</li>
+<li data-i18n="proTool.image-output.heic" data-pro-action="image-output.heic">HEIC</li>
+<li data-i18n="proTool.image-output.webp" data-pro-action="image-output.webp">WEBP</li>
+<li data-i18n="proTool.image-output.avif" data-pro-action="image-output.avif">AVIF</li>
+<li data-i18n="proTool.image-output.tiff" data-pro-action="image-output.tiff">TIFF</li>
+<li data-i18n="proTool.image-output.gif" data-pro-action="image-output.gif">GIF</li>
+<li data-i18n="proTool.image-output.bmp" data-pro-action="image-output.bmp">BMP</li>
+<li data-i18n="proTool.image-output.pdf" data-pro-action="image-output.pdf">PDF</li>
+<li data-i18n="proTool.image-output.txt" data-pro-action="image-output.txt">TXT</li>
+</ul></details>
 </section>
 <section id="pdf-edit" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.2.title">PDF 페이지·주석 편집</h2>
@@ -53,6 +89,30 @@
 </div>
 <figure class="pro-screen"><a href="assets/screenshots/pro/en/pdf-edit.png"><img src="assets/screenshots/pro/en/pdf-edit.png" loading="lazy" decoding="async" data-i18n-alt="guide.shot.pdf-edit" alt="PDF 페이지·글자·도형 편집"></a><figcaption data-i18n="guide.shot.pdf-edit">PDF 페이지·글자·도형 편집</figcaption></figure>
 </div>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.pdf-canvas">PDF 주석과 페이지 편집</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.pdf-canvas.browse" data-pro-action="pdf-canvas.browse">텍스트 선택·보기</li>
+<li data-i18n="proTool.pdf-canvas.select" data-pro-action="pdf-canvas.select">객체 선택·이동</li>
+<li data-i18n="proTool.pdf-canvas.resize" data-pro-action="pdf-canvas.resize">선택 객체 크기 변경</li>
+<li data-i18n="proTool.pdf-canvas.text" data-pro-action="pdf-canvas.text">텍스트 넣기</li>
+<li data-i18n="proTool.pdf-canvas.image" data-pro-action="pdf-canvas.image">그림·서명 이미지</li>
+<li data-i18n="proTool.pdf-canvas.ink" data-pro-action="pdf-canvas.ink">펜·손그림 서명</li>
+<li data-i18n="proTool.pdf-canvas.rectangle" data-pro-action="pdf-canvas.rectangle">사각형</li>
+<li data-i18n="proTool.pdf-canvas.ellipse" data-pro-action="pdf-canvas.ellipse">타원</li>
+<li data-i18n="proTool.pdf-canvas.line" data-pro-action="pdf-canvas.line">선</li>
+<li data-i18n="proTool.pdf-canvas.arrow" data-pro-action="pdf-canvas.arrow">화살표</li>
+<li data-i18n="proTool.pdf-canvas.highlight" data-pro-action="pdf-canvas.highlight">형광펜</li>
+<li data-i18n="proTool.pdf-canvas.note" data-pro-action="pdf-canvas.note">메모</li>
+<li data-i18n="proTool.pdf-canvas.redact" data-pro-action="pdf-canvas.redact">완전 가리기</li>
+<li data-i18n="proTool.pdf-canvas.page-rotate" data-pro-action="pdf-canvas.page-rotate">선택 페이지 회전</li>
+<li data-i18n="proTool.pdf-canvas.page-delete" data-pro-action="pdf-canvas.page-delete">선택 페이지 삭제</li>
+<li data-i18n="proTool.pdf-canvas.page-copy" data-pro-action="pdf-canvas.page-copy">선택 페이지 복제</li>
+<li data-i18n="proTool.pdf-canvas.page-blank" data-pro-action="pdf-canvas.page-blank">선택 페이지 뒤에 빈 쪽</li>
+<li data-i18n="proTool.pdf-canvas.zoom-in" data-pro-action="pdf-canvas.zoom-in">확대</li>
+<li data-i18n="proTool.pdf-canvas.zoom-out" data-pro-action="pdf-canvas.zoom-out">축소</li>
+<li data-i18n="proTool.pdf-canvas.fit-page" data-pro-action="pdf-canvas.fit-page">페이지에 맞추기</li>
+</ul></details>
 </section>
 <section id="pdf-tools" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.3.title">PDF 변환·인식·추가 도구</h2>
@@ -64,6 +124,93 @@
 <h3 data-i18n="proAll.pdfWorkflow">PDF 제출과 출력</h3>
 <p data-i18n="proAll.pdfWorkflowBody">표지를 붙여 제출 서류를 묶고, 송장 PDF나 XRechnung XML을 만드세요. 스캔·카메라·화면 캡처에서 페이지를 가져오거나, 여러 쪽을 한 장에 배치하고 출력 설정을 프로필로 저장할 수 있습니다. 보관용 PDF/A-1b·2b·3b는 페이지를 이미지로 고정합니다.</p>
 <p data-i18n="pro.pdfNote">PDF/A와 영역 가리기는 페이지를 이미지로 고정합니다. EPUB은 텍스트 기반, SVG는 이미지 기반이며 변환 시 원본 서식 보존에는 한계가 있습니다. 암호 해제에는 필요한 암호가 있어야 합니다. 송장 XML은 XRechnung 형식이며 한국 전자세금계산서 발행 기능은 아닙니다.</p>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.pdf-tool">PDF 편집 · 변환</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.pdf-tool.compress" data-pro-action="pdf-tool.compress">압축 (용량 줄이기)</li>
+<li data-i18n="proTool.pdf-tool.rotate" data-pro-action="pdf-tool.rotate">회전 (시계 방향)</li>
+<li data-i18n="proTool.pdf-tool.grayscale" data-pro-action="pdf-tool.grayscale">흑백으로</li>
+<li data-i18n="proTool.pdf-tool.strip" data-pro-action="pdf-tool.strip">메타데이터 지우기</li>
+<li data-i18n="proTool.pdf-tool.pdf.merge" data-pro-action="pdf-tool.pdf.merge">PDF 하나로 합치기</li>
+<li data-i18n="proTool.pdf-tool.pdf.split" data-pro-action="pdf-tool.pdf.split">나누기 (쪽마다)</li>
+<li data-i18n="proTool.pdf-tool.pdf.extract" data-pro-action="pdf-tool.pdf.extract">쪽 뽑기</li>
+<li data-i18n="proTool.pdf-tool.pdf.delete" data-pro-action="pdf-tool.pdf.delete">쪽 지우기</li>
+<li data-i18n="proTool.pdf-tool.pdf.reorder" data-pro-action="pdf-tool.pdf.reorder">쪽 순서 바꾸기</li>
+<li data-i18n="proTool.pdf-tool.pdf.reverse" data-pro-action="pdf-tool.pdf.reverse">쪽 순서 뒤집기</li>
+<li data-i18n="proTool.pdf-tool.pdf.watermark" data-pro-action="pdf-tool.pdf.watermark">워터마크 넣기</li>
+<li data-i18n="proTool.pdf-tool.pdf.numbers" data-pro-action="pdf-tool.pdf.numbers">쪽 번호 넣기</li>
+<li data-i18n="proTool.pdf-tool.pdf.encrypt" data-pro-action="pdf-tool.pdf.encrypt">암호 걸기</li>
+<li data-i18n="proTool.pdf-tool.pdf.decrypt" data-pro-action="pdf-tool.pdf.decrypt">암호 풀기</li>
+<li data-i18n="proTool.pdf-tool.pdf.ocr" data-pro-action="pdf-tool.pdf.ocr">글자 인식 (OCR)</li>
+<li data-i18n="proTool.pdf-tool.doc.speak" data-pro-action="pdf-tool.doc.speak">글 → 음성 파일(M4A)</li>
+<li data-i18n="proTool.pdf-tool.doc.translate" data-pro-action="pdf-tool.doc.translate">번역</li>
+<li data-i18n="proTool.pdf-tool.pdf.flatten" data-pro-action="pdf-tool.pdf.flatten">평탄화 (주석·양식 고정)</li>
+<li data-i18n="proTool.pdf-tool.pdf.unannotate" data-pro-action="pdf-tool.pdf.unannotate">주석 지우기</li>
+<li data-i18n="proTool.pdf-tool.pdf.nup" data-pro-action="pdf-tool.pdf.nup">모아 찍기 (한 장에 여러 쪽)</li>
+<li data-i18n="proTool.pdf-tool.pdf.a4" data-pro-action="pdf-tool.pdf.a4">A4 크기로 맞추기</li>
+<li data-i18n="proTool.pdf-tool.pdf.crop" data-pro-action="pdf-tool.pdf.crop">여백 자르기</li>
+<li data-i18n="proTool.pdf-tool.pdf.blank" data-pro-action="pdf-tool.pdf.blank">빈 쪽 지우기</li>
+<li data-i18n="proTool.pdf-tool.pdf.longimage" data-pro-action="pdf-tool.pdf.longimage">긴 이미지로 (JPG 한 장)</li>
+<li data-i18n="proTool.pdf-tool.pdf.images" data-pro-action="pdf-tool.pdf.images">그림만 뽑기</li>
+<li data-i18n="proTool.pdf-tool.pdf.insert" data-pro-action="pdf-tool.pdf.insert">쪽 끼워 넣기</li>
+<li data-i18n="proTool.pdf-tool.pdf.replace" data-pro-action="pdf-tool.pdf.replace">쪽 바꾸기 (다른 파일로)</li>
+<li data-i18n="proTool.pdf-tool.pdf.blankpage" data-pro-action="pdf-tool.pdf.blankpage">빈 쪽 넣기</li>
+<li data-i18n="proTool.pdf-tool.pdf.rotatepages" data-pro-action="pdf-tool.pdf.rotatepages">골라서 회전 (일부 쪽)</li>
+<li data-i18n="proTool.pdf-tool.pdf.pagesize" data-pro-action="pdf-tool.pdf.pagesize">용지 크기 바꾸기</li>
+<li data-i18n="proTool.pdf-tool.pdf.headerfooter" data-pro-action="pdf-tool.pdf.headerfooter">머리말·꼬리말</li>
+<li data-i18n="proTool.pdf-tool.pdf.imagewatermark" data-pro-action="pdf-tool.pdf.imagewatermark">그림 워터마크</li>
+<li data-i18n="proTool.pdf-tool.pdf.stamp" data-pro-action="pdf-tool.pdf.stamp">도장 찍기 (날짜)</li>
+<li data-i18n="proTool.pdf-tool.pdf.signature" data-pro-action="pdf-tool.pdf.signature">서명 넣기 (그림)</li>
+<li data-i18n="proTool.pdf-tool.pdf.redact" data-pro-action="pdf-tool.pdf.redact">가리기 (개인정보·낱말)</li>
+<li data-i18n="proTool.pdf-tool.pdf.permissions" data-pro-action="pdf-tool.pdf.permissions">인쇄·복사 막기</li>
+<li data-i18n="proTool.pdf-tool.pdf.repassword" data-pro-action="pdf-tool.pdf.repassword">암호 바꾸기</li>
+<li data-i18n="proTool.pdf-tool.pdf.info" data-pro-action="pdf-tool.pdf.info">문서 정보 보기</li>
+<li data-i18n="proTool.pdf-tool.pdf.metadata" data-pro-action="pdf-tool.pdf.metadata">문서 정보 고치기 (제목·작성자)</li>
+<li data-i18n="proTool.pdf-tool.pdf.bookmarks" data-pro-action="pdf-tool.pdf.bookmarks">책갈피 만들기·지우기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.edit" data-pro-action="pdf-tool.pdfdesk.edit">직접 편집 · 글·그림·도형</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.annotate" data-pro-action="pdf-tool.pdfdesk.annotate">주석 · 형광펜·메모·그리기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.sign" data-pro-action="pdf-tool.pdfdesk.sign">손그림·사진 서명</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.redact-area" data-pro-action="pdf-tool.pdfdesk.redact-area">영역 가리기 · 내용 완전 제거</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.overlay" data-pro-action="pdf-tool.pdfdesk.overlay">PDF 겹쳐 넣기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.compare" data-pro-action="pdf-tool.pdfdesk.compare">PDF 비교 · 글·화면</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.linearize" data-pro-action="pdf-tool.pdfdesk.linearize">웹 최적화 · 빠른 첫 페이지</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.strip-metadata" data-pro-action="pdf-tool.pdfdesk.strip-metadata">문서 메타데이터 제거</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.pdfa" data-pro-action="pdf-tool.pdfdesk.pdfa">PDF/A-1·2·3 보관용 저장</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.fromfiles" data-pro-action="pdf-tool.pdfdesk.fromfiles">파일을 PDF로 가져오기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.application" data-pro-action="pdf-tool.pdfdesk.application">지원서·제출 문서 묶기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.invoice" data-pro-action="pdf-tool.pdfdesk.invoice">송장 작성 · PDF</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.einvoice" data-pro-action="pdf-tool.pdfdesk.einvoice">전자 송장 · XRechnung XML</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.capture" data-pro-action="pdf-tool.pdfdesk.capture">화면 캡처 가져오기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.camera" data-pro-action="pdf-tool.pdfdesk.camera">카메라·사진 가져오기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.scanner" data-pro-action="pdf-tool.pdfdesk.scanner">스캐너에서 가져오기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.print" data-pro-action="pdf-tool.pdfdesk.print">인쇄 · PDF로 저장</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.profiles" data-pro-action="pdf-tool.pdfdesk.profiles">출력 규칙 저장·불러오기</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.fax" data-pro-action="pdf-tool.pdfdesk.fax">팩스용 PDF 저장</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.repair" data-pro-action="pdf-tool.pdfdesk.repair">PDF 구조 복구</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.rasterize" data-pro-action="pdf-tool.pdfdesk.rasterize">PDF 이미지화</li>
+<li data-i18n="proTool.pdf-tool.pdfdesk.viewer" data-pro-action="pdf-tool.pdfdesk.viewer">PDF 열기 방식 설정</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.pdf-output">PDF · 저장 형식</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.pdf-output.pdf" data-pro-action="pdf-output.pdf">PDF</li>
+<li data-i18n="proTool.pdf-output.png" data-pro-action="pdf-output.png">PNG</li>
+<li data-i18n="proTool.pdf-output.jpg" data-pro-action="pdf-output.jpg">JPG</li>
+<li data-i18n="proTool.pdf-output.docx" data-pro-action="pdf-output.docx">DOCX</li>
+<li data-i18n="proTool.pdf-output.doc" data-pro-action="pdf-output.doc">DOC</li>
+<li data-i18n="proTool.pdf-output.hwpx" data-pro-action="pdf-output.hwpx">HWPX</li>
+<li data-i18n="proTool.pdf-output.txt" data-pro-action="pdf-output.txt">TXT</li>
+<li data-i18n="proTool.pdf-output.rtf" data-pro-action="pdf-output.rtf">RTF</li>
+<li data-i18n="proTool.pdf-output.html" data-pro-action="pdf-output.html">HTML</li>
+<li data-i18n="proTool.pdf-output.odt" data-pro-action="pdf-output.odt">ODT</li>
+<li data-i18n="proTool.pdf-output.xlsx" data-pro-action="pdf-output.xlsx">XLSX</li>
+<li data-i18n="proTool.pdf-output.pptx" data-pro-action="pdf-output.pptx">PPTX</li>
+<li data-i18n="proTool.pdf-output.epub" data-pro-action="pdf-output.epub">EPUB</li>
+<li data-i18n="proTool.pdf-output.svg" data-pro-action="pdf-output.svg">SVG</li>
+<li data-i18n="proTool.pdf-output.pdfa1" data-pro-action="pdf-output.pdfa1">PDF/A-1</li>
+<li data-i18n="proTool.pdf-output.pdfa2" data-pro-action="pdf-output.pdfa2">PDF/A-2</li>
+<li data-i18n="proTool.pdf-output.pdfa3" data-pro-action="pdf-output.pdfa3">PDF/A-3</li>
+</ul></details>
 </section>
 <section id="audio" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.4.title">오디오·스테레오·벨소리</h2>
@@ -72,6 +219,59 @@
 </div>
 <figure class="pro-screen"><a href="assets/screenshots/pro/en/audio.png"><img src="assets/screenshots/pro/en/audio.png" loading="lazy" decoding="async" data-i18n-alt="guide.shot.audio" alt="스테레오 파형과 왼쪽 채널 구간 선택"></a><figcaption data-i18n="guide.shot.audio">스테레오 파형과 왼쪽 채널 구간 선택</figcaption></figure>
 </div>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.av-edit">오디오·영상 편집</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.av-edit.keep" data-pro-action="av-edit.keep">선택 구간만</li>
+<li data-i18n="proTool.av-edit.delete" data-pro-action="av-edit.delete">선택 구간 삭제</li>
+<li data-i18n="proTool.av-edit.full" data-pro-action="av-edit.full">전체 구간 선택</li>
+<li data-i18n="proTool.av-edit.start" data-pro-action="av-edit.start">시작 시간</li>
+<li data-i18n="proTool.av-edit.end" data-pro-action="av-edit.end">끝 시간</li>
+<li data-i18n="proTool.av-edit.speed" data-pro-action="av-edit.speed">속도</li>
+<li data-i18n="proTool.av-edit.volume" data-pro-action="av-edit.volume">음량</li>
+<li data-i18n="proTool.av-edit.mute" data-pro-action="av-edit.mute">음소거</li>
+<li data-i18n="proTool.av-edit.channel" data-pro-action="av-edit.channel">편집할 오디오 채널</li>
+<li data-i18n="proTool.av-edit.both" data-pro-action="av-edit.both">좌우 함께</li>
+<li data-i18n="proTool.av-edit.l" data-pro-action="av-edit.l">왼쪽 L</li>
+<li data-i18n="proTool.av-edit.r" data-pro-action="av-edit.r">오른쪽 R</li>
+<li data-i18n="proTool.av-edit.reset" data-pro-action="av-edit.reset">채널 편집 초기화</li>
+<li data-i18n="proTool.av-edit.preview" data-pro-action="av-edit.preview">편집 구간 재생</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.audio-ringtone">벨소리로 저장</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.audio-ringtone.range" data-pro-action="audio-ringtone.range">벨소리 구간 선택 · 최대 30초</li>
+<li data-i18n="proTool.audio-ringtone.save" data-pro-action="audio-ringtone.save">벨소리로 저장</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.audio-output">오디오 · 저장 형식</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.audio-output.mp3" data-pro-action="audio-output.mp3">MP3</li>
+<li data-i18n="proTool.audio-output.m4a" data-pro-action="audio-output.m4a">M4A</li>
+<li data-i18n="proTool.audio-output.m4r" data-pro-action="audio-output.m4r">M4R</li>
+<li data-i18n="proTool.audio-output.wav" data-pro-action="audio-output.wav">WAV</li>
+<li data-i18n="proTool.audio-output.flac" data-pro-action="audio-output.flac">FLAC</li>
+<li data-i18n="proTool.audio-output.opus" data-pro-action="audio-output.opus">OPUS</li>
+<li data-i18n="proTool.audio-output.aiff" data-pro-action="audio-output.aiff">AIFF</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.audio-tools">오디오 · 변환 도구</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.audio-tools.to.mp3" data-pro-action="audio-tools.to.mp3">MP3로 변환</li>
+<li data-i18n="proTool.audio-tools.to.m4a" data-pro-action="audio-tools.to.m4a">M4A로 변환</li>
+<li data-i18n="proTool.audio-tools.to.wav" data-pro-action="audio-tools.to.wav">WAV로 변환</li>
+<li data-i18n="proTool.audio-tools.to.flac" data-pro-action="audio-tools.to.flac">FLAC로 변환</li>
+<li data-i18n="proTool.audio-tools.to.opus" data-pro-action="audio-tools.to.opus">Opus로 변환</li>
+<li data-i18n="proTool.audio-tools.to.aiff" data-pro-action="audio-tools.to.aiff">AIFF로 변환</li>
+<li data-i18n="proTool.audio-tools.compress" data-pro-action="audio-tools.compress">압축 (용량 줄이기)</li>
+<li data-i18n="proTool.audio-tools.trim" data-pro-action="audio-tools.trim">자르기 (구간)</li>
+<li data-i18n="proTool.audio-tools.speed" data-pro-action="audio-tools.speed">속도 바꾸기</li>
+<li data-i18n="proTool.audio-tools.normalize" data-pro-action="audio-tools.normalize">음량 고르게</li>
+<li data-i18n="proTool.audio-tools.audio.ringtone" data-pro-action="audio-tools.audio.ringtone">아이폰 벨소리(M4R)</li>
+<li data-i18n="proTool.audio-tools.media.transcribe" data-pro-action="audio-tools.media.transcribe">말소리 → 자막(받아쓰기)</li>
+<li data-i18n="proTool.audio-tools.mono" data-pro-action="audio-tools.mono">모노로</li>
+<li data-i18n="proTool.audio-tools.strip" data-pro-action="audio-tools.strip">메타데이터 지우기</li>
+</ul></details>
 </section>
 <section id="video" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.5.title">영상 편집·변환</h2>
@@ -80,6 +280,44 @@
 </div>
 <figure class="pro-screen"><a href="assets/screenshots/pro/en/video.png"><img src="assets/screenshots/pro/en/video.png" loading="lazy" decoding="async" data-i18n-alt="guide.shot.video" alt="영상 미리보기와 구간·출력 설정"></a><figcaption data-i18n="guide.shot.video">영상 미리보기와 구간·출력 설정</figcaption></figure>
 </div>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.video-output">영상 · 저장 형식</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.video-output.mp4" data-pro-action="video-output.mp4">MP4</li>
+<li data-i18n="proTool.video-output.mov" data-pro-action="video-output.mov">MOV</li>
+<li data-i18n="proTool.video-output.mkv" data-pro-action="video-output.mkv">MKV</li>
+<li data-i18n="proTool.video-output.webm" data-pro-action="video-output.webm">WEBM</li>
+<li data-i18n="proTool.video-output.mp3" data-pro-action="video-output.mp3">MP3</li>
+<li data-i18n="proTool.video-output.m4a" data-pro-action="video-output.m4a">M4A</li>
+<li data-i18n="proTool.video-output.wav" data-pro-action="video-output.wav">WAV</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.video-tools">영상 · 변환 도구</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.video-tools.to.gif" data-pro-action="video-tools.to.gif">GIF로 변환</li>
+<li data-i18n="proTool.video-tools.to.mp4" data-pro-action="video-tools.to.mp4">MP4로 변환</li>
+<li data-i18n="proTool.video-tools.to.mov" data-pro-action="video-tools.to.mov">MOV로 변환</li>
+<li data-i18n="proTool.video-tools.to.mkv" data-pro-action="video-tools.to.mkv">MKV로 변환</li>
+<li data-i18n="proTool.video-tools.to.webm" data-pro-action="video-tools.to.webm">WebM로 변환</li>
+<li data-i18n="proTool.video-tools.to.avi" data-pro-action="video-tools.to.avi">AVI로 변환</li>
+<li data-i18n="proTool.video-tools.to.mp3" data-pro-action="video-tools.to.mp3">MP3로 변환</li>
+<li data-i18n="proTool.video-tools.to.m4a" data-pro-action="video-tools.to.m4a">M4A로 변환</li>
+<li data-i18n="proTool.video-tools.to.wav" data-pro-action="video-tools.to.wav">WAV로 변환</li>
+<li data-i18n="proTool.video-tools.to.flac" data-pro-action="video-tools.to.flac">FLAC로 변환</li>
+<li data-i18n="proTool.video-tools.to.opus" data-pro-action="video-tools.to.opus">Opus로 변환</li>
+<li data-i18n="proTool.video-tools.to.aiff" data-pro-action="video-tools.to.aiff">AIFF로 변환</li>
+<li data-i18n="proTool.video-tools.compress" data-pro-action="video-tools.compress">압축 (용량 줄이기)</li>
+<li data-i18n="proTool.video-tools.trim" data-pro-action="video-tools.trim">자르기 (구간)</li>
+<li data-i18n="proTool.video-tools.speed" data-pro-action="video-tools.speed">속도 바꾸기</li>
+<li data-i18n="proTool.video-tools.mute" data-pro-action="video-tools.mute">소리 없애기</li>
+<li data-i18n="proTool.video-tools.snapshot" data-pro-action="video-tools.snapshot">장면 캡처 (JPG)</li>
+<li data-i18n="proTool.video-tools.normalize" data-pro-action="video-tools.normalize">음량 고르게</li>
+<li data-i18n="proTool.video-tools.video.hevc" data-pro-action="video-tools.video.hevc">HEVC(H.265)로 변환</li>
+<li data-i18n="proTool.video-tools.audio.ringtone" data-pro-action="video-tools.audio.ringtone">아이폰 벨소리(M4R)</li>
+<li data-i18n="proTool.video-tools.media.transcribe" data-pro-action="video-tools.media.transcribe">말소리 → 자막(받아쓰기)</li>
+<li data-i18n="proTool.video-tools.mono" data-pro-action="video-tools.mono">모노로</li>
+<li data-i18n="proTool.video-tools.strip" data-pro-action="video-tools.strip">메타데이터 지우기</li>
+</ul></details>
 </section>
 <section id="documents" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.6.title">문서·자막·일괄 작업</h2>
@@ -88,6 +326,30 @@
 </div>
 <figure class="pro-screen"><a href="assets/screenshots/pro/en/documents.png"><img src="assets/screenshots/pro/en/documents.png" loading="lazy" decoding="async" data-i18n-alt="guide.shot.documents" alt="문서 변환 도구와 일괄 작업"></a><figcaption data-i18n="guide.shot.documents">문서 변환 도구와 일괄 작업</figcaption></figure>
 </div>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.document-tools">문서 · 변환 도구</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.document-tools.to.pdf" data-pro-action="document-tools.to.pdf">PDF로 변환</li>
+<li data-i18n="proTool.document-tools.to.docx" data-pro-action="document-tools.to.docx">Word(DOCX)로 변환</li>
+<li data-i18n="proTool.document-tools.to.doc" data-pro-action="document-tools.to.doc">Word 97(DOC)로 변환</li>
+<li data-i18n="proTool.document-tools.to.hwpx" data-pro-action="document-tools.to.hwpx">한글(HWPX)로 변환</li>
+<li data-i18n="proTool.document-tools.to.txt" data-pro-action="document-tools.to.txt">텍스트(TXT)로 변환</li>
+<li data-i18n="proTool.document-tools.to.rtf" data-pro-action="document-tools.to.rtf">RTF로 변환</li>
+<li data-i18n="proTool.document-tools.to.html" data-pro-action="document-tools.to.html">HTML로 변환</li>
+<li data-i18n="proTool.document-tools.to.odt" data-pro-action="document-tools.to.odt">ODT로 변환</li>
+<li data-i18n="proTool.document-tools.doc.speak" data-pro-action="document-tools.doc.speak">글 → 음성 파일(M4A)</li>
+<li data-i18n="proTool.document-tools.doc.translate" data-pro-action="document-tools.doc.translate">번역</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.subtitle-tools">자막 · 변환 도구</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.subtitle-tools.to.txt" data-pro-action="subtitle-tools.to.txt">텍스트(TXT)로 변환</li>
+<li data-i18n="proTool.subtitle-tools.to.srt" data-pro-action="subtitle-tools.to.srt">SRT 자막로 변환</li>
+<li data-i18n="proTool.subtitle-tools.to.vtt" data-pro-action="subtitle-tools.to.vtt">VTT 자막로 변환</li>
+<li data-i18n="proTool.subtitle-tools.to.smi" data-pro-action="subtitle-tools.to.smi">SMI 자막로 변환</li>
+<li data-i18n="proTool.subtitle-tools.doc.speak" data-pro-action="subtitle-tools.doc.speak">글 → 음성 파일(M4A)</li>
+<li data-i18n="proTool.subtitle-tools.doc.translate" data-pro-action="subtitle-tools.doc.translate">번역</li>
+</ul></details>
 </section>
 <section id="archive" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.7.title">고급 압축 만들기·해제</h2>
@@ -99,6 +361,103 @@
 <h3 data-i18n="proAll.archiveOptions">압축 옵션과 검증</h3>
 <p data-i18n="proAll.archiveOptionsBody">지원 형식에 따라 압축 수준, 스레드 수, 분할 크기, 암호, 파일 이름 암호화를 고르세요. 항목별 압축, 폴더 내용만 묶기, Mac 메타데이터 처리, 결과 검증을 설정할 수 있습니다. 암호를 제외한 설정은 프리셋으로 저장됩니다.</p>
 <p data-i18n="pro.archiveNote">압축 옵션은 형식에 따라 다릅니다. RAR·WPRESS는 해제만 지원합니다. 독립적으로 사용 가능한 외부 엔진을 각 라이선스에 따라 포함합니다. 오디오 한 채널의 구간 삭제는 싱크 유지를 위해 무음으로 남습니다.</p>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.archive-create">압축 파일 만들기</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.archive-create.zip" data-pro-action="archive-create.zip">ZIP</li>
+<li data-i18n="proTool.archive-create.sevenZip" data-pro-action="archive-create.sevenZip">7Z</li>
+<li data-i18n="proTool.archive-create.tar" data-pro-action="archive-create.tar">TAR</li>
+<li data-i18n="proTool.archive-create.gzip" data-pro-action="archive-create.gzip">GZIP</li>
+<li data-i18n="proTool.archive-create.bzip2" data-pro-action="archive-create.bzip2">BZIP2</li>
+<li data-i18n="proTool.archive-create.xz" data-pro-action="archive-create.xz">XZ</li>
+<li data-i18n="proTool.archive-create.lzip" data-pro-action="archive-create.lzip">LZIP</li>
+<li data-i18n="proTool.archive-create.dmg" data-pro-action="archive-create.dmg">DMG</li>
+<li data-i18n="proTool.archive-create.iso" data-pro-action="archive-create.iso">ISO</li>
+<li data-i18n="proTool.archive-create.brotli" data-pro-action="archive-create.brotli">Brotli</li>
+<li data-i18n="proTool.archive-create.zstd" data-pro-action="archive-create.zstd">Zstandard</li>
+<li data-i18n="proTool.archive-create.lrzip" data-pro-action="archive-create.lrzip">LRZIP</li>
+<li data-i18n="proTool.archive-create.aar" data-pro-action="archive-create.aar">AAR</li>
+<li data-i18n="proTool.archive-create.wim" data-pro-action="archive-create.wim">WIM</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.archive-extract">고급 압축 해제</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.archive-extract.zip" data-pro-action="archive-extract.zip">.zip</li>
+<li data-i18n="proTool.archive-extract.zipx" data-pro-action="archive-extract.zipx">.zipx</li>
+<li data-i18n="proTool.archive-extract.7z" data-pro-action="archive-extract.7z">.7z</li>
+<li data-i18n="proTool.archive-extract.rar" data-pro-action="archive-extract.rar">.rar</li>
+<li data-i18n="proTool.archive-extract.tar" data-pro-action="archive-extract.tar">.tar</li>
+<li data-i18n="proTool.archive-extract.gz" data-pro-action="archive-extract.gz">.gz</li>
+<li data-i18n="proTool.archive-extract.tgz" data-pro-action="archive-extract.tgz">.tgz</li>
+<li data-i18n="proTool.archive-extract.bz2" data-pro-action="archive-extract.bz2">.bz2</li>
+<li data-i18n="proTool.archive-extract.tbz" data-pro-action="archive-extract.tbz">.tbz</li>
+<li data-i18n="proTool.archive-extract.tbz2" data-pro-action="archive-extract.tbz2">.tbz2</li>
+<li data-i18n="proTool.archive-extract.xz" data-pro-action="archive-extract.xz">.xz</li>
+<li data-i18n="proTool.archive-extract.txz" data-pro-action="archive-extract.txz">.txz</li>
+<li data-i18n="proTool.archive-extract.lz" data-pro-action="archive-extract.lz">.lz</li>
+<li data-i18n="proTool.archive-extract.tlz" data-pro-action="archive-extract.tlz">.tlz</li>
+<li data-i18n="proTool.archive-extract.lzma" data-pro-action="archive-extract.lzma">.lzma</li>
+<li data-i18n="proTool.archive-extract.lz4" data-pro-action="archive-extract.lz4">.lz4</li>
+<li data-i18n="proTool.archive-extract.br" data-pro-action="archive-extract.br">.br</li>
+<li data-i18n="proTool.archive-extract.tbr" data-pro-action="archive-extract.tbr">.tbr</li>
+<li data-i18n="proTool.archive-extract.zst" data-pro-action="archive-extract.zst">.zst</li>
+<li data-i18n="proTool.archive-extract.tzst" data-pro-action="archive-extract.tzst">.tzst</li>
+<li data-i18n="proTool.archive-extract.lrz" data-pro-action="archive-extract.lrz">.lrz</li>
+<li data-i18n="proTool.archive-extract.tlrz" data-pro-action="archive-extract.tlrz">.tlrz</li>
+<li data-i18n="proTool.archive-extract.dmg" data-pro-action="archive-extract.dmg">.dmg</li>
+<li data-i18n="proTool.archive-extract.iso" data-pro-action="archive-extract.iso">.iso</li>
+<li data-i18n="proTool.archive-extract.exe" data-pro-action="archive-extract.exe">.exe</li>
+<li data-i18n="proTool.archive-extract.cab" data-pro-action="archive-extract.cab">.cab</li>
+<li data-i18n="proTool.archive-extract.wim" data-pro-action="archive-extract.wim">.wim</li>
+<li data-i18n="proTool.archive-extract.msi" data-pro-action="archive-extract.msi">.msi</li>
+<li data-i18n="proTool.archive-extract.pax" data-pro-action="archive-extract.pax">.pax</li>
+<li data-i18n="proTool.archive-extract.jar" data-pro-action="archive-extract.jar">.jar</li>
+<li data-i18n="proTool.archive-extract.war" data-pro-action="archive-extract.war">.war</li>
+<li data-i18n="proTool.archive-extract.ipa" data-pro-action="archive-extract.ipa">.ipa</li>
+<li data-i18n="proTool.archive-extract.xip" data-pro-action="archive-extract.xip">.xip</li>
+<li data-i18n="proTool.archive-extract.apk" data-pro-action="archive-extract.apk">.apk</li>
+<li data-i18n="proTool.archive-extract.appx" data-pro-action="archive-extract.appx">.appx</li>
+<li data-i18n="proTool.archive-extract.xpi" data-pro-action="archive-extract.xpi">.xpi</li>
+<li data-i18n="proTool.archive-extract.aar" data-pro-action="archive-extract.aar">.aar</li>
+<li data-i18n="proTool.archive-extract.cpio" data-pro-action="archive-extract.cpio">.cpio</li>
+<li data-i18n="proTool.archive-extract.cpgz" data-pro-action="archive-extract.cpgz">.cpgz</li>
+<li data-i18n="proTool.archive-extract.cpt" data-pro-action="archive-extract.cpt">.cpt</li>
+<li data-i18n="proTool.archive-extract.spk" data-pro-action="archive-extract.spk">.spk</li>
+<li data-i18n="proTool.archive-extract.is3" data-pro-action="archive-extract.is3">.is3</li>
+<li data-i18n="proTool.archive-extract.xar" data-pro-action="archive-extract.xar">.xar</li>
+<li data-i18n="proTool.archive-extract.wpress" data-pro-action="archive-extract.wpress">.wpress</li>
+<li data-i18n="proTool.archive-extract.001" data-pro-action="archive-extract.001">.001</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.archive-settings">압축·해제 옵션</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.archive-settings.split" data-pro-action="archive-settings.split">분할 크기 (예: 100 MB)</li>
+<li data-i18n="proTool.archive-settings.threads" data-pro-action="archive-settings.threads">스레드 (0 = 자동)</li>
+<li data-i18n="proTool.archive-settings.solid" data-pro-action="archive-settings.solid">솔리드 압축 (7Z)</li>
+<li data-i18n="proTool.archive-settings.individual" data-pro-action="archive-settings.individual">선택 항목을 각각 압축</li>
+<li data-i18n="proTool.archive-settings.contentsOnly" data-pro-action="archive-settings.contentsOnly">선택한 폴더의 내용만 압축</li>
+<li data-i18n="proTool.archive-settings.tarball" data-pro-action="archive-settings.tarball">스트림 형식은 TAR로 묶어서 압축</li>
+<li data-i18n="proTool.archive-settings.shortExtension" data-pro-action="archive-settings.shortExtension">짧은 확장자 사용 (.tgz 등)</li>
+<li data-i18n="proTool.archive-settings.password" data-pro-action="archive-settings.password">암호</li>
+<li data-i18n="proTool.archive-settings.zipAES" data-pro-action="archive-settings.zipAES">ZIP 암호화: AES-256 (해제하면 ZipCrypto)</li>
+<li data-i18n="proTool.archive-settings.encryptNames" data-pro-action="archive-settings.encryptNames">파일 이름도 암호화 (7Z)</li>
+<li data-i18n="proTool.archive-settings.selfExtracting" data-pro-action="archive-settings.selfExtracting">Windows 자동 풀림 파일 (.exe, 7Z)</li>
+<li data-i18n="proTool.archive-settings.volumeName" data-pro-action="archive-settings.volumeName">디스크 이름 (DMG·ISO)</li>
+<li data-i18n="proTool.archive-settings.excludeMac" data-pro-action="archive-settings.excludeMac">Mac 메타데이터 제외 (.DS_Store·._ 파일)</li>
+<li data-i18n="proTool.archive-settings.verify" data-pro-action="archive-settings.verify">압축 후 원본과 내용 검증</li>
+<li data-i18n="proTool.archive-settings.trashSources" data-pro-action="archive-settings.trashSources">성공·검증 후 원본을 휴지통으로 이동</li>
+<li data-i18n="proTool.archive-settings.reveal" data-pro-action="archive-settings.reveal">완료 후 FileDesk 창에서 결과 표시</li>
+<li data-i18n="proTool.archive-settings.level" data-pro-action="archive-settings.level">압축 수준</li>
+<li data-i18n="proTool.archive-settings.save-preset" data-pro-action="archive-settings.save-preset">현재 설정 저장…</li>
+<li data-i18n="proTool.archive-settings.delete-preset" data-pro-action="archive-settings.delete-preset">선택한 설정 삭제</li>
+<li data-i18n="proTool.archive-settings.reset" data-pro-action="archive-settings.reset">기본값으로</li>
+<li data-i18n="proTool.archive-settings.extract-password" data-pro-action="archive-settings.extract-password">암호 (필요한 경우)</li>
+<li class="pro-tool-variants" data-pro-action="archive-settings.encoding"><details><summary data-i18n="proTool.archive-settings.encoding">파일 이름 인코딩</summary><ul><li data-i18n="proTool.archive-settings.encoding.auto">자동 감지</li><li data-i18n="proTool.archive-settings.encoding.utf-8">UTF-8</li><li data-i18n="proTool.archive-settings.encoding.cp949">CP949</li><li data-i18n="proTool.archive-settings.encoding.shift_jis">Shift_JIS</li><li data-i18n="proTool.archive-settings.encoding.gb18030">GB18030</li><li data-i18n="proTool.archive-settings.encoding.big5">Big5</li><li data-i18n="proTool.archive-settings.encoding.windows-1252">Windows-1252</li></ul></details></li>
+<li class="pro-tool-variants" data-pro-action="archive-settings.destination"><details><summary data-i18n="proTool.archive-settings.destination">해제 위치</summary><ul><li data-i18n="proTool.archive-settings.destination.always">항상 새 폴더</li><li data-i18n="proTool.archive-settings.destination.automatic">항목이 여러 개면 새 폴더</li><li data-i18n="proTool.archive-settings.destination.current">선택한 폴더에 바로 해제</li></ul></details></li>
+<li data-i18n="proTool.archive-settings.extract-meta" data-pro-action="archive-settings.extract-meta">Mac 메타데이터 제외</li>
+<li data-i18n="proTool.archive-settings.date" data-pro-action="archive-settings.date">결과 폴더에 압축 파일 수정일 적용</li>
+<li data-i18n="proTool.archive-settings.extract-trash" data-pro-action="archive-settings.extract-trash">해제가 완료된 원본을 휴지통으로 이동</li>
+</ul></details>
 </section>
 <section id="sharing" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.8.title">시간 제한 인터넷 공유</h2>
@@ -108,6 +467,21 @@
 <figure class="pro-screen"><a href="assets/screenshots/pro/en/sharing.png"><img src="assets/screenshots/pro/en/sharing.png" loading="lazy" decoding="async" data-i18n-alt="guide.shot.sharing" alt="파일·폴더 공유 준비 화면 · 아직 공유를 시작하지 않은 예시"></a><figcaption data-i18n="guide.shot.sharing">파일·폴더 공유 준비 화면 · 아직 공유를 시작하지 않은 예시</figcaption></figure>
 </div>
 <p data-i18n="pro.shareNote">공유하는 Mac에 Tailscale 설치·로그인과 최초 Funnel 승인이 필요합니다. Mac을 켜고 FileDesk·Tailscale과 인터넷 연결을 유지해야 합니다. 접속 기록은 실명 확인이 아니며, 만료되거나 중지되어도 이미 받은 사본은 회수되지 않습니다.</p>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.sharing">시간 제한 인터넷 공유</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.sharing.add" data-pro-action="sharing.add">파일·폴더 추가…</li>
+<li data-i18n="proTool.sharing.remove" data-pro-action="sharing.remove">선택 항목 제거</li>
+<li data-i18n="proTool.sharing.duration" data-pro-action="sharing.duration">공유 시간</li>
+<li data-i18n="proTool.sharing.start" data-pro-action="sharing.start">공유 시작</li>
+<li data-i18n="proTool.sharing.stop" data-pro-action="sharing.stop">즉시 중지</li>
+<li data-i18n="proTool.sharing.copy" data-pro-action="sharing.copy">링크 복사</li>
+<li data-i18n="proTool.sharing.open" data-pro-action="sharing.open">브라우저에서 열기</li>
+<li data-i18n="proTool.sharing.history" data-pro-action="sharing.history">접속·다운로드 기록</li>
+<li data-i18n="proTool.sharing.csv" data-pro-action="sharing.csv">기록 CSV 저장…</li>
+<li data-i18n="proTool.sharing.clear" data-pro-action="sharing.clear">기록 지우기</li>
+<li data-i18n="proTool.sharing.connection" data-pro-action="sharing.connection">연결 확인</li>
+</ul></details>
 </section>
 <section id="terminal" class="pro-workflow"><div class="pro-workflow__intro"><div>
 <h2 data-i18n="pro.9.title">원하는 터미널 앱 선택</h2>
@@ -131,14 +505,126 @@
 <p data-i18n="pro.1.body">미리보기를 보며 자르기·회전·크기 조절. 흑백·반전·배경 제거·메타데이터 제거를 켜고 끕니다. JPG·PNG·HEIC·WebP·AVIF 등 형식 선택, 용량 줄이기, 이미지 합치기, PDF 묶기와 QR 읽기를 제공합니다. 콜라주는 최대 20장, 2~20장 각각 36개 템플릿과 사진 이동·확대·축소·테두리·배경 조절을 지원합니다. 사진 모양 12종(원형·하트·별·꽃·다각형 등)과 별도 모양 배치 12종을 선택할 수 있습니다. 사진과 콜라주에 글꼴을 정해 글자를 넣고 이동·회전·크기를 조절합니다. 기존 사각형 격자 36종에 혼합 모양 템플릿 12종을 추가했습니다. 격자 배치와 믹스 템플릿을 모두 선택할 수 있습니다. 칸 크기는 모서리 드래그·숫자로 조절하고 Shift 드래그로 비율을 유지하며, 왼쪽 목록의 다중 선택도 지원합니다.</p>
 <p data-i18n="guide.collageBody">기존 사각형 격자 36종에 혼합 모양 템플릿 12종을 추가했습니다. 격자 배치와 믹스 템플릿을 모두 선택할 수 있습니다. 칸 크기는 모서리 드래그·숫자로 조절하고 Shift 드래그로 비율을 유지하며, 왼쪽 목록의 다중 선택도 지원합니다. 이미지 합치기에서 최대 20장을 넣으면 완성형 믹스 템플릿이 사진을 자동 배치합니다. 12종에는 원·하트·별·아치를 조합한 배치, 사선 모자이크, 물결 분할, 꽃잎 바람개비, 중앙 원형 배치, 기울어진 폴라로이드, 직접 그린 꽃 장식, 라운드 타일과 엽서가 있습니다. 사진 수에 맞춰 모양·크기·배경색·장식을 함께 적용합니다. 기존 36개 격자는 별도 선택합니다. 사진 칸을 클릭하고 네 모서리 손잡이를 드래그해 크기를 바꿉니다. Shift 드래그는 현재 비율을 유지합니다. 모양 탭에서 가로·세로 픽셀을 입력하고 비율 유지 또는 크기 초기화를 선택할 수도 있습니다. 칸 이동은 프레임 자체를, 구도 이동은 칸 안의 사진을 옮깁니다. 왼쪽 목록은 ⌘ 클릭으로 다중 선택, ⇧ 클릭으로 범위 선택, ⌘A로 전체 선택합니다. 선택한 사진을 함께 제거·순서 변경·모양 변경·자동 맞춤·크기 조절하며 실행 취소로 복원합니다. 사진을 교환해도 칸 모양과 크기는 유지됩니다. 글자 탭에서는 Mac 설치 글꼴·크기·색·정렬·회전·테두리·그림자를 조절하고 최대 20개 글상자(각 2,000자)를 넣습니다. 간격·여백·배경을 조절해 PNG/JPG로 저장하며 투명 영역은 PNG를 사용합니다. 원본은 변경하지 않습니다.</p>
 </details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.collage-layout">콜라주 편집</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.collage-layout.grid" data-pro-action="collage-layout.grid">격자 배치</li>
+<li class="pro-tool-variants" data-pro-action="collage-layout.mosaic"><details><summary data-i18n="proTool.collage-layout.mosaic">믹스 24</summary><ul><li data-i18n="proTool.collage-layout.mosaic.gallery">소프트 갤러리</li><li data-i18n="proTool.collage-layout.mosaic.love">러브레터</li><li data-i18n="proTool.collage-layout.mosaic.starlight">별빛</li><li data-i18n="proTool.collage-layout.mosaic.diagonal">사선 모자이크</li><li data-i18n="proTool.collage-layout.mosaic.waves">물결 분할</li><li data-i18n="proTool.collage-layout.mosaic.pinwheel">꽃잎 바람개비</li><li data-i18n="proTool.collage-layout.mosaic.radial">센터 포커스</li><li data-i18n="proTool.collage-layout.mosaic.jewel">작은 보석</li><li data-i18n="proTool.collage-layout.mosaic.bloom">꽃 피는 날</li><li data-i18n="proTool.collage-layout.mosaic.archway">아치 회랑</li><li data-i18n="proTool.collage-layout.mosaic.postcard">추억 엽서</li><li data-i18n="proTool.collage-layout.mosaic.rhythm">컬러 리듬</li><li data-i18n="proTool.collage-layout.mosaic.estuary">강의 흐름</li><li data-i18n="proTool.collage-layout.mosaic.foldingFan">접이 부채</li><li data-i18n="proTool.collage-layout.mosaic.trellis">격자 정원</li><li data-i18n="proTool.collage-layout.mosaic.jigsaw">퍼즐 이음</li><li data-i18n="proTool.collage-layout.mosaic.sawtooth">지그재그</li><li data-i18n="proTool.collage-layout.mosaic.ripples">잔물결</li><li data-i18n="proTool.collage-layout.mosaic.leaf">잎맥</li><li data-i18n="proTool.collage-layout.mosaic.facets">프리즘</li><li data-i18n="proTool.collage-layout.mosaic.terrace">계단식 정원</li><li data-i18n="proTool.collage-layout.mosaic.horizon">지평선</li><li data-i18n="proTool.collage-layout.mosaic.sails">돛의 곡선</li><li data-i18n="proTool.collage-layout.mosaic.rosette">장미창</li></ul></details></li>
+<li class="pro-tool-variants" data-pro-action="collage-layout.album"><details><summary data-i18n="proTool.collage-layout.album">포토 24</summary><ul><li data-i18n="proTool.collage-layout.album.gallery">즉석사진 갤러리</li><li data-i18n="proTool.collage-layout.album.diary">테이프 다이어리</li><li data-i18n="proTool.collage-layout.album.midnight">미드나이트 앨범</li><li data-i18n="proTool.collage-layout.album.contactSheet">필름 콘택트 시트</li><li data-i18n="proTool.collage-layout.album.charcoalClip">차콜 집게</li><li data-i18n="proTool.collage-layout.album.brassClip">황동 바인더</li><li data-i18n="proTool.collage-layout.album.roseWire">로즈골드 클립</li><li data-i18n="proTool.collage-layout.album.silverWire">실버 클립</li><li data-i18n="proTool.collage-layout.album.cherryPin">체리 압정</li><li data-i18n="proTool.collage-layout.album.amberPin">호박빛 압정</li><li data-i18n="proTool.collage-layout.album.mintPin">민트 압핀</li><li data-i18n="proTool.collage-layout.album.corkboard">코르크 게시판</li><li data-i18n="proTool.collage-layout.album.coralTape">코랄 테이프</li><li data-i18n="proTool.collage-layout.album.blueStripe">파란 줄무늬 테이프</li><li data-i18n="proTool.collage-layout.album.floralTape">꽃무늬 테이프</li><li data-i18n="proTool.collage-layout.album.doubleTape">양쪽 테이프</li><li data-i18n="proTool.collage-layout.album.lavenderGrid">라벤더 모눈</li><li data-i18n="proTool.collage-layout.album.fernJournal">고사리 노트</li><li data-i18n="proTool.collage-layout.album.letterpress">활판 엽서</li><li data-i18n="proTool.collage-layout.album.longCaption">긴 메모 여백</li><li data-i18n="proTool.collage-layout.album.photoCorners">빈티지 사진 모서리</li><li data-i18n="proTool.collage-layout.album.indigoLinen">인디고 리넨</li><li data-i18n="proTool.collage-layout.album.cinemaStrip">시네마 필름</li><li data-i18n="proTool.collage-layout.album.keepsake">기념일 스크랩</li></ul></details></li>
+<li data-i18n="proTool.collage-layout.new-album" data-pro-action="collage-layout.new-album">선택한 사진으로 새 앨범</li>
+<li data-i18n="proTool.collage-layout.suggest" data-pro-action="collage-layout.suggest">사진 비율에 맞는 추천 배치</li>
+<li data-i18n="proTool.collage-layout.output-size" data-pro-action="collage-layout.output-size">출력 크기 (픽셀)</li>
+<li data-i18n="proTool.collage-layout.reframe" data-pro-action="collage-layout.reframe">사진 구도</li>
+<li data-i18n="proTool.collage-layout.arrange" data-pro-action="collage-layout.arrange">칸 배치</li>
+<li data-i18n="proTool.collage-layout.swap" data-pro-action="collage-layout.swap">사진 맞바꾸기</li>
+<li data-i18n="proTool.collage-layout.zoom" data-pro-action="collage-layout.zoom">사진 확대·축소</li>
+<li data-i18n="proTool.collage-layout.fill" data-pro-action="collage-layout.fill">칸 채우기</li>
+<li data-i18n="proTool.collage-layout.fit" data-pro-action="collage-layout.fit">전체 보이기</li>
+<li data-i18n="proTool.collage-layout.auto-one" data-pro-action="collage-layout.auto-one">선택 사진 자동 맞춤</li>
+<li data-i18n="proTool.collage-layout.auto-all" data-pro-action="collage-layout.auto-all">모든 사진 자동 배치·맞춤</li>
+<li data-i18n="proTool.collage-layout.slot" data-pro-action="collage-layout.slot">사진 칸</li>
+<li class="pro-tool-variants" data-pro-action="collage-layout.frame"><details><summary data-i18n="proTool.collage-layout.frame">액자</summary><ul><li data-i18n="proTool.collage-layout.frame.family-01">리넨</li><li data-i18n="proTool.collage-layout.frame.family-02">월넛</li><li data-i18n="proTool.collage-layout.frame.family-03">황동</li><li data-i18n="proTool.collage-layout.frame.family-04">에나멜</li><li data-i18n="proTool.collage-layout.frame.family-05">이중 매트</li><li data-i18n="proTool.collage-layout.frame.family-06">가죽 바느질</li><li data-i18n="proTool.collage-layout.frame.family-07">구슬 장식</li><li data-i18n="proTool.collage-layout.frame.family-08">모자이크</li><li data-i18n="proTool.collage-layout.frame.family-09">필름 테두리</li><li data-i18n="proTool.collage-layout.frame.family-10">레이스</li></ul></details></li>
+<li class="pro-tool-variants" data-pro-action="collage-layout.mask"><details><summary data-i18n="proTool.collage-layout.mask">마스크</summary><ul><li data-i18n="proTool.collage-layout.mask.family-01">하트</li><li data-i18n="proTool.collage-layout.mask.family-02">별</li><li data-i18n="proTool.collage-layout.mask.family-03">꽃잎</li><li data-i18n="proTool.collage-layout.mask.family-04">물결 인장</li><li data-i18n="proTool.collage-layout.mask.family-05">다각형</li><li data-i18n="proTool.collage-layout.mask.family-06">아치</li><li data-i18n="proTool.collage-layout.mask.family-07">조약돌</li><li data-i18n="proTool.collage-layout.mask.family-08">찢은 종이</li><li data-i18n="proTool.collage-layout.mask.family-09">붓자국</li><li data-i18n="proTool.collage-layout.mask.family-10">부드러운 가장자리</li></ul></details></li>
+<li data-i18n="proTool.collage-layout.aspect" data-pro-action="collage-layout.aspect">가로·세로 비율 유지</li>
+<li data-i18n="proTool.collage-layout.width" data-pro-action="collage-layout.width">사진 칸 가로</li>
+<li data-i18n="proTool.collage-layout.height" data-pro-action="collage-layout.height">사진 칸 세로</li>
+<li data-i18n="proTool.collage-layout.rotate" data-pro-action="collage-layout.rotate">회전 각도</li>
+<li data-i18n="proTool.collage-layout.handle" data-pro-action="collage-layout.handle">위쪽 둥근 조절점을 드래그해 회전 · ⇧ 15° 단위</li>
+<li data-i18n="proTool.collage-layout.reset" data-pro-action="collage-layout.reset">회전 초기화</li>
+<li data-i18n="proTool.collage-layout.layers" data-pro-action="collage-layout.layers">사진 레이어 선택…</li>
+<li data-i18n="proTool.collage-layout.top" data-pro-action="collage-layout.top">맨 앞으로 가져오기</li>
+<li data-i18n="proTool.collage-layout.front" data-pro-action="collage-layout.front">한 단계 앞으로</li>
+<li data-i18n="proTool.collage-layout.back" data-pro-action="collage-layout.back">한 단계 뒤로</li>
+<li data-i18n="proTool.collage-layout.bottom" data-pro-action="collage-layout.bottom">맨 뒤로 보내기</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.collage-style">스타일 프리셋</summary>
+<ul class="pro-tool-list">
+<li class="pro-tool-variants" data-pro-action="collage-style.shape"><details><summary data-i18n="proTool.collage-style.shape">사진 칸 모양</summary><ul><li data-i18n="proTool.collage-style.shape.rectangle">사각형</li><li data-i18n="proTool.collage-style.shape.circle">원형</li><li data-i18n="proTool.collage-style.shape.ellipse">타원</li><li data-i18n="proTool.collage-style.shape.heart">하트</li><li data-i18n="proTool.collage-style.shape.star">별</li><li data-i18n="proTool.collage-style.shape.hexagon">육각형</li><li data-i18n="proTool.collage-style.shape.pentagon">오각형</li><li data-i18n="proTool.collage-style.shape.diamond">마름모</li><li data-i18n="proTool.collage-style.shape.triangle">삼각형</li><li data-i18n="proTool.collage-style.shape.flower">꽃</li><li data-i18n="proTool.collage-style.shape.arch">아치</li><li data-i18n="proTool.collage-style.shape.bubble">말풍선</li></ul></details></li>
+<li data-i18n="proTool.collage-style.all" data-pro-action="collage-style.all">전체 사진</li>
+<li data-i18n="proTool.collage-style.selected" data-pro-action="collage-style.selected">선택 사진</li>
+<li class="pro-tool-variants" data-pro-action="collage-style.presets"><details><summary data-i18n="proTool.collage-style.presets">스타일 선택…</summary><ul><li data-i18n="proTool.collage-style.presets.grid">깔끔한 격자</li><li data-i18n="proTool.collage-style.presets.rounded">둥근 카드</li><li data-i18n="proTool.collage-style.presets.paper">따뜻한 종이</li><li data-i18n="proTool.collage-style.presets.dark">다크 프레임</li><li data-i18n="proTool.collage-style.presets.pastel">파스텔</li><li data-i18n="proTool.collage-style.presets.borderless">여백 없이</li></ul></details></li>
+<li data-i18n="proTool.collage-style.gap" data-pro-action="collage-style.gap">칸 간격</li>
+<li data-i18n="proTool.collage-style.margin" data-pro-action="collage-style.margin">바깥 여백</li>
+<li data-i18n="proTool.collage-style.corners" data-pro-action="collage-style.corners">모서리 둥글기</li>
+<li data-i18n="proTool.collage-style.border" data-pro-action="collage-style.border">테두리 두께</li>
+<li data-i18n="proTool.collage-style.color" data-pro-action="collage-style.color">배경색 · 테두리색</li>
+<li data-i18n="proTool.collage-style.transparent" data-pro-action="collage-style.transparent">투명 배경 (PNG)</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.collage-text-sticker">텍스트·모양 넣기</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.collage-text-sticker.add-text" data-pro-action="collage-text-sticker.add-text">텍스트 추가</li>
+<li data-i18n="proTool.collage-text-sticker.duplicate" data-pro-action="collage-text-sticker.duplicate">복제</li>
+<li data-i18n="proTool.collage-text-sticker.delete" data-pro-action="collage-text-sticker.delete">삭제</li>
+<li data-i18n="proTool.collage-text-sticker.forward" data-pro-action="collage-text-sticker.forward">앞으로</li>
+<li data-i18n="proTool.collage-text-sticker.back" data-pro-action="collage-text-sticker.back">뒤로</li>
+<li data-i18n="proTool.collage-text-sticker.font" data-pro-action="collage-text-sticker.font">글꼴</li>
+<li data-i18n="proTool.collage-text-sticker.font-style" data-pro-action="collage-text-sticker.font-style">글꼴 스타일</li>
+<li data-i18n="proTool.collage-text-sticker.font-size" data-pro-action="collage-text-sticker.font-size">글자 크기 (픽셀)</li>
+<li data-i18n="proTool.collage-text-sticker.color" data-pro-action="collage-text-sticker.color">글자색</li>
+<li data-i18n="proTool.collage-text-sticker.width" data-pro-action="collage-text-sticker.width">글상자 너비</li>
+<li data-i18n="proTool.collage-text-sticker.rotation" data-pro-action="collage-text-sticker.rotation">회전</li>
+<li data-i18n="proTool.collage-text-sticker.outline" data-pro-action="collage-text-sticker.outline">글자 테두리</li>
+<li data-i18n="proTool.collage-text-sticker.outline-color" data-pro-action="collage-text-sticker.outline-color">글자 테두리색</li>
+<li data-i18n="proTool.collage-text-sticker.opacity" data-pro-action="collage-text-sticker.opacity">불투명도</li>
+<li data-i18n="proTool.collage-text-sticker.shadow" data-pro-action="collage-text-sticker.shadow">그림자</li>
+<li data-i18n="proTool.collage-text-sticker.left" data-pro-action="collage-text-sticker.left">왼쪽</li>
+<li data-i18n="proTool.collage-text-sticker.center" data-pro-action="collage-text-sticker.center">가운데</li>
+<li data-i18n="proTool.collage-text-sticker.right" data-pro-action="collage-text-sticker.right">오른쪽</li>
+<li data-i18n="proTool.collage-text-sticker.emoji" data-pro-action="collage-text-sticker.emoji">Mac 이모티콘…</li>
+<li data-i18n="proTool.collage-text-sticker.paste-sticker" data-pro-action="collage-text-sticker.paste-sticker">아이콘·스티커 붙여넣기 · ⌘V</li>
+<li data-i18n="proTool.collage-text-sticker.remove-sticker" data-pro-action="collage-text-sticker.remove-sticker">선택 스티커 삭제</li>
+</ul></details>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.collage-output">콜라주 편집 · 저장 형식</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.collage-output.png" data-pro-action="collage-output.png">PNG</li>
+<li data-i18n="proTool.collage-output.jpg" data-pro-action="collage-output.jpg">JPG</li>
+</ul></details>
 </section>
 <section class="pro-workflow" id="workspace">
 <h2 data-i18n="proAll.workspace">도구 막대와 작업 공간</h2>
 <p data-i18n="proAll.workspaceBody">시스템 도구 막대와 런처를 각각 창의 네 가장자리 중 원하는 곳에 배치하세요. 사이드바 섹션은 접거나 끌어서 순서를 바꿀 수 있습니다. 사이드바 하단에서 설정을 열면 Pro에서는 일반, 화면 모양, 도구 막대, 왼쪽 메뉴, 임시보관함, 전송, 라이선스를 한 창에서 관리합니다.</p>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.workspace">작업창·탐색 도구</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.workspace.general" data-pro-action="workspace.general">터미널 앱 선택</li>
+<li data-i18n="proTool.workspace.dock" data-pro-action="workspace.dock">도구 막대의 위치, 표시 방식과 버튼</li>
+<li data-i18n="proTool.workspace.launcher" data-pro-action="workspace.launcher">런처</li>
+<li data-i18n="proTool.workspace.sidebar" data-pro-action="workspace.sidebar">섹션 순서, 접기와 표시할 항목</li>
+<li data-i18n="proTool.workspace.rename" data-pro-action="workspace.rename">일괄 이름 변경</li>
+<li data-i18n="proTool.workspace.folder" data-pro-action="workspace.folder">폴더 선택…</li>
+</ul></details>
 </section>
 <section class="pro-workflow" id="themes">
 <h2 data-i18n="proAll.themes">영역별 테마와 나만의 팔레트</h2>
 <p data-i18n="proAll.themesBody">추천 테마 8개에서 시작하거나 이미지에서 색을 추출하세요. 라이트·다크 모드별로 창, 사이드바, 도구 막대 두 개, 파일 창 여섯 개, 보관함, 선택 영역의 색과 투명도를 정할 수 있습니다. 자주 쓰는 색과 팔레트의 이름을 바꾸고, .fdtheme 파일로 저장하거나 다시 불러오세요.</p>
+<details class="pro-tool-set" open>
+<summary data-i18n="toolGroup.workspace-themes">팔레트 관리</summary>
+<ul class="pro-tool-list">
+<li data-i18n="proTool.workspace-themes.light" data-pro-action="workspace-themes.light">라이트 모드</li>
+<li data-i18n="proTool.workspace-themes.dark" data-pro-action="workspace-themes.dark">다크 모드</li>
+<li data-i18n="proTool.workspace-themes.mode" data-pro-action="workspace-themes.mode">설정할 모드</li>
+<li data-i18n="proTool.workspace-themes.theme-type" data-pro-action="workspace-themes.theme-type">테마 종류</li>
+<li data-i18n="proTool.workspace-themes.builtin" data-pro-action="workspace-themes.builtin">기본 색상 테마</li>
+<li data-i18n="proTool.workspace-themes.custom" data-pro-action="workspace-themes.custom">사용자 색상 테마</li>
+<li data-i18n="proTool.workspace-themes.recommend" data-pro-action="workspace-themes.recommend">추천 테마</li>
+<li data-i18n="proTool.workspace-themes.area" data-pro-action="workspace-themes.area">영역 색</li>
+<li data-i18n="proTool.workspace-themes.panes" data-pro-action="workspace-themes.panes">파일 창 색</li>
+<li data-i18n="proTool.workspace-themes.name" data-pro-action="workspace-themes.name">테마 이름</li>
+<li data-i18n="proTool.workspace-themes.image-palette" data-pro-action="workspace-themes.image-palette">이미지 팔레트…</li>
+<li data-i18n="proTool.workspace-themes.pick" data-pro-action="workspace-themes.pick">이미지 선택…</li>
+<li data-i18n="proTool.workspace-themes.extract" data-pro-action="workspace-themes.extract">어울리는 색 추출</li>
+<li data-i18n="proTool.workspace-themes.export-theme" data-pro-action="workspace-themes.export-theme">테마 파일 저장…</li>
+<li data-i18n="proTool.workspace-themes.saved" data-pro-action="workspace-themes.saved">사용자 지정 팔레트</li>
+<li data-i18n="proTool.workspace-themes.rename" data-pro-action="workspace-themes.rename">팔레트 이름 변경…</li>
+<li data-i18n="proTool.workspace-themes.delete" data-pro-action="workspace-themes.delete">팔레트 삭제…</li>
+<li data-i18n="proTool.workspace-themes.rename-color" data-pro-action="workspace-themes.rename-color">색상 이름 변경…</li>
+<li data-i18n="proTool.workspace-themes.delete-color" data-pro-action="workspace-themes.delete-color">색상 삭제…</li>
+<li data-i18n="proTool.workspace-themes.import" data-pro-action="workspace-themes.import">테마 가져오기…</li>
+<li data-i18n="proTool.workspace-themes.export" data-pro-action="workspace-themes.export">파일로 내보내기…</li>
+</ul></details>
 </section>
 <section class="pro-workflow" id="batch-rename">
 <h2 data-i18n="proAll.rename">폴더 하나로 시작하는 일괄 이름 변경</h2>
