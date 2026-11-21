@@ -1,0 +1,85 @@
+.edition-main {
+  width: min(1100px, calc(100% - 48px));
+  padding-bottom: 64px;
+}
+.edition-intro {
+  padding: clamp(40px, 7vw, 88px) 0 26px;
+  max-width: 860px;
+}
+.edition-intro h1 {
+  font-size: clamp(38px, 6.2vw, 76px);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+  overflow-wrap: anywhere;
+  margin: 12px 0 18px;
+}
+.edition-intro p, .edition-copy p, .edition-detail p {
+  max-width: 68ch;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.7;
+}
+.edition-intro p { font-size: clamp(17px, 2vw, 22px); }
+.edition-shot {
+  margin: 0;
+  padding: clamp(12px, 3.5vw, 38px);
+  background: #dbe7ef;
+  border-radius: 18px;
+  text-align: center;
+}
+.edition-pro-preview .edition-shot { background: #e2dfeb; }
+.edition-shot a { display: block; cursor: zoom-in; }
+.edition-shot img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 690px;
+  box-shadow: 0 10px 28px #17273724;
+  border-radius: 6px;
+}
+.edition-copy { margin: 26px 0 48px; }
+.edition-main h2 {
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.2;
+  letter-spacing: -.025em;
+  margin: 0 0 12px;
+}
+.edition-pair {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(20px, 5vw, 70px);
+  border-top: 1px solid var(--line);
+  padding: 40px 0;
+}
+.edition-pair .edition-copy { margin: 0; }
+.edition-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+  border-top: 1px solid var(--line);
+  gap: clamp(18px, 4vw, 40px);
+  padding: 36px 0;
+}
+.edition-detail h2 { font-size: 23px; }
+.edition-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+}
+@media (max-width: 720px) {
+  .edition-main { width: calc(100% - 32px); }
+  .edition-pair { grid-template-columns: 1fr; }
+  .edition-shot { padding: 10px; }
+}
+.edition-locale {
+  display: block;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
+:lang(ko) .edition-main h1, :lang(ko) .edition-main h2 {
+  word-break: keep-all;
+}
