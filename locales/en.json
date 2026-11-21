@@ -1147,5 +1147,7 @@
   "feature.settingsAlt": "The new Settings window in the English standard edition, showing toolbar positions",
   "feature.settingsHowto": "Click Settings at the bottom of the sidebar or press ⌘,, then choose a category on the left. Reset All… restores the toolbar, sidebar, shelf and terminal settings; your theme and launchers stay.",
   "feature.previous124": "Added in standard 1.24",
-  "release.history124": "What was new in standard 1.24"
+  "release.history124": "What was new in standard 1.24",
+  "pro.videoTitle": "FileDesk Pro 1.37 intro video",
+  "pro.videoNote": "A 38-second film made from real Pro 1.37 screens. The Korean site plays the Korean version; every other language plays the English version."
 }

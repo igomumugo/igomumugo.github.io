@@ -41,3 +41,24 @@
   document.addEventListener('filedesk:language', updateForLanguage);
   if (document.documentElement.dataset.languageReady) updateForLanguage();
 })();
+
+// FileDesk Pro intro: Korean visitors get the Korean film, every other language the English one.
+(() => {
+  'use strict';
+  const video = document.getElementById('pro-video');
+  if (!video) return;
+  let current = 'ko';
+  function choose() {
+    const want = window.FileDeskI18n?.language === 'ko' ? 'ko' : 'en';
+    if (want === current || !video.paused) return;
+    current = want;
+    video.removeAttribute('src');
+    video.querySelector('source').src = `assets/videos/pro-intro-${want}.mp4`;
+    video.poster = `assets/videos/pro-intro-${want}.jpg`;
+    video.load();
+    document.getElementById('pro-video-meta').textContent = want === 'ko' ? '한국어 · 0:38' : 'English · 0:38';
+    document.getElementById('pro-video-open').href = `assets/videos/pro-intro-${want}.mp4`;
+  }
+  document.addEventListener('filedesk:language', choose);
+  if (document.documentElement.dataset.languageReady) choose();
+})();

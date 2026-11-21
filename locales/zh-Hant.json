@@ -1147,5 +1147,7 @@
   "feature.settingsAlt": "英文標準版的新設定視窗，顯示工具列位置選項",
   "feature.settingsHowto": "按一下側邊欄底部的「設定」或按 ⌘,，然後在左側選擇類別。按一下「全部還原預設…」會還原工具列、側邊欄、暫存架和終端機設定，主題和已加入的啟動器會保留。",
   "feature.previous124": "標準版 1.24 新增功能",
-  "release.history124": "標準版 1.24 更新內容"
+  "release.history124": "標準版 1.24 更新內容",
+  "pro.videoTitle": "FileDesk Pro 1.37 介紹影片",
+  "pro.videoNote": "以 Pro 1.37 實際畫面製作的 38 秒影片。韓語頁面播放韓語版，其他語言播放英語版。"
 }

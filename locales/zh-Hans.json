@@ -1147,5 +1147,7 @@
   "feature.settingsAlt": "英文标准版的新设置窗口，显示工具栏位置选项",
   "feature.settingsHowto": "点按边栏底部的“设置”或按 ⌘,，然后在左侧选择类别。点按“全部恢复默认…”会恢复工具栏、边栏、暂存架和终端设置，主题和已添加的启动器会保留。",
   "feature.previous124": "标准版 1.24 新增功能",
-  "release.history124": "标准版 1.24 更新内容"
+  "release.history124": "标准版 1.24 更新内容",
+  "pro.videoTitle": "FileDesk Pro 1.37 介绍视频",
+  "pro.videoNote": "用 Pro 1.37 实际画面制作的 38 秒视频。韩语页面播放韩语版，其他语言播放英语版。"
 }
