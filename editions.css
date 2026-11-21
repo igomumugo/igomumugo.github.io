@@ -83,3 +83,49 @@ header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
 :lang(ko) .edition-main h1, :lang(ko) .edition-main h2 {
   word-break: keep-all;
 }
+
+.pro-catalog {
+  margin: 0 0 36px;
+  padding: 24px clamp(18px, 3vw, 34px);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.pro-catalog h2 { margin-bottom: 16px; }
+.pro-catalog nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(218px, 100%), 1fr));
+  gap: 0 26px;
+}
+.pro-catalog nav a {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--blue);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.pro-workflow, .pro-history {
+  border-top: 1px solid var(--line);
+  padding: clamp(28px, 4vw, 52px) 0;
+  scroll-margin-top: 24px;
+}
+.pro-workflow p, .pro-history > p { color: var(--muted); max-width: 76ch; }
+.pro-workflow h3, .pro-history h3 { margin: 24px 0 8px; font-size: 20px; line-height: 1.35; }
+.pro-workflow__intro { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: start; gap: clamp(20px,4vw,48px); }
+.pro-workflow__intro h2 { margin-top: 2px; }
+.pro-workflow__intro p { margin: 10px 0 0; }
+.pro-screen { margin: 0; min-width: 0; }
+.pro-screen img { display:block; width:100%; height:auto; border-radius:8px; border:1px solid var(--line); }
+.pro-screen a { display:block; cursor:zoom-in; }
+.pro-screen figcaption { font-size:13px; line-height:1.45; color:var(--muted); margin-top:8px; }
+.pro-screen-group { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(215px,100%),1fr)); gap:18px; margin:22px 0; }
+.pro-workflow details, .pro-legacy-text { margin-top:16px; padding:12px 16px; border:1px solid var(--line); border-radius:8px; }
+.pro-workflow summary, .pro-legacy-text summary { cursor:pointer; color:var(--ink); font-weight:650; }
+.pro-tool-list { columns:3 220px; column-gap:24px; margin:12px 0; padding-inline-start:22px; color:var(--muted); }
+.pro-tool-list li { break-inside:avoid; margin:3px 0; line-height:1.5; }
+.pro-history .edition-copy { margin-bottom:26px; }
+.pro-history .edition-pair { padding:24px 0; }
+@media(max-width:720px){
+  .pro-workflow__intro { grid-template-columns:minmax(0,1fr); }
+  .pro-catalog nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0 14px; }
+}
