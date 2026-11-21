@@ -135,3 +135,10 @@ header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
 .pro-tool-variants summary { font-weight:500; }
 .pro-tool-variants ul { padding-inline-start:18px; }
 .pro-tool-set { scroll-margin-top:20px; }
+.edition-main h2.edition-version {
+  border-top: 1px solid var(--line);
+  padding-top: 44px;
+  margin: 12px 0 24px;
+  color: var(--muted);
+  font-size: clamp(20px, 2.4vw, 28px);
+}
