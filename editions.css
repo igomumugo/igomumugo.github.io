@@ -125,7 +125,10 @@ header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
 .pro-tool-list li { break-inside:avoid; margin:3px 0; line-height:1.5; }
 .pro-history .edition-copy { margin-bottom:26px; }
 .pro-history .edition-pair { padding:24px 0; }
+.manual-shots { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:24px; }
+.edition-shot figcaption { margin-top:8px; font-size:14px; line-height:1.5; color:var(--muted); }
 @media(max-width:720px){
+  .manual-shots { grid-template-columns:minmax(0,1fr); }
   .pro-workflow__intro { grid-template-columns:minmax(0,1fr); }
   .pro-catalog nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0 14px; }
 }

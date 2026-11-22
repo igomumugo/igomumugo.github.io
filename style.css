@@ -7,3 +7,8 @@
 
 .visits-section{padding:32px 0 40px}.visits-section h2{font-size:22px}.visit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:600px;margin:22px 0}.visit-grid>div{border:1px solid var(--line);border-radius:16px;background:#fff;padding:20px 24px}.visit-grid dt{font-size:14px;color:var(--muted)}.visit-grid dd{margin:6px 0 0;font-size:34px;line-height:1.3;font-weight:750;color:var(--blue);font-variant-numeric:tabular-nums}.visit-note,#visits-status{font-size:13px;max-width:720px}#visits-status:empty{display:none}@media(max-width:400px){.visit-grid{gap:10px}.visit-grid>div{padding:16px}.visit-grid dd{font-size:28px}}
 .pro-intro-video{margin:26px 0 30px}.pro-intro-video .video-note{margin-top:0}.pro-intro-video .muted{color:#b9c9dd}.pro-intro-video .video-current>a{color:#9cc7ff}.pro-intro-video .video-stage{border-color:#3c5471}
+
+.manual-preview { display:block; max-width:850px; margin:20px 0; }
+.manual-preview img { display:block; width:100%; height:auto; border:1px solid var(--line); border-radius:12px; }
+.manual-archive { margin-top:20px; }
+.manual-archive summary { cursor:pointer; color:var(--muted); }

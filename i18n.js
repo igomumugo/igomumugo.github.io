@@ -62,6 +62,13 @@
           if (typeof value === 'string') element.setAttribute(attribute, value);
         });
       });
+      document.querySelectorAll('img[data-local-shot]').forEach(image => {
+        const [series, file] = image.dataset.localShot.split('/');
+        const src = `assets/screenshots/${series}/${locale}/${file}?v=${encodeURIComponent(version)}`;
+        image.setAttribute('src', src);
+        const link = image.closest('a[href^="assets/screenshots/"]');
+        if (link) link.setAttribute('href', src);
+      });
       select.value = locale;
       if (persist) {
         try { localStorage.setItem(storageKey, locale); } catch { /* Storage is optional. */ }

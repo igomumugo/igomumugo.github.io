@@ -37,7 +37,7 @@ function updateProScreenshots() {
     link.href = src;
     link.querySelector('img').src = src;
   });
-  if (dialog.open && opener?.dataset.proShot) {
+  if (dialog.open && opener) {
     dialog.querySelector('img').src = opener.href;
     dialog.querySelector('img').alt = opener.querySelector('img').alt;
   }
