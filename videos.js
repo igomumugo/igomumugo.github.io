@@ -2,7 +2,12 @@
   'use strict';
   const video = document.getElementById('intro-video');
   const buttons = [...document.querySelectorAll('[data-video]')];
+  const proVideo = document.getElementById('pro-video');
   const films = {
+    'pro-introduction': {
+      key: 'pro.introFilm', language: 'English', duration: '1:12',
+      src: proVideo.querySelector('source').src, poster: proVideo.poster
+    },
     'quick-tour': { key: 'video.quick', language: '한국어', duration: '0:28' },
     'english-intro': { key: 'video.english', language: 'English', duration: '1:23' },
     'motion-guide': { key: 'video.motion', language: '한국어', duration: '0:36' },
@@ -12,22 +17,23 @@
   let active = 'quick-tour';
   let chosen = false;
   function selectFilm(id) {
+    const film = films[id];
+    const src = film.src || `assets/videos/${id}.mp4`;
     if (id !== active) {
       video.pause();
       video.removeAttribute('src');
-      video.querySelector('source').src = `assets/videos/${id}.mp4`;
-      video.poster = `assets/videos/${id}.jpg`;
+      video.querySelector('source').src = src;
+      video.poster = film.poster || `assets/videos/${id}.jpg`;
       video.load();
       active = id;
     }
-    const film = films[active];
     const title = document.getElementById('video-title');
     title.dataset.i18n = film.key;
     title.textContent = document.documentElement.dataset.languageReady
       ? window.FileDeskI18n.t(film.key)
       : buttons.find(button => button.dataset.video === active).querySelector('span').textContent;
     document.getElementById('video-meta').textContent = `${film.language} · ${film.duration}`;
-    document.getElementById('video-open').href = `assets/videos/${active}.mp4`;
+    document.getElementById('video-open').href = src;
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.video === active)));
   }
   buttons.forEach(button => button.addEventListener('click', () => {

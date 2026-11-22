@@ -1243,5 +1243,6 @@
   "timeline.colorAlt": "자막의 색상 견본과 HEX 입력, 선택한 색으로 표시된 자막 미리보기",
   "timeline.regionsAlt": "서로 다른 효과가 적용된 두 영역과 강도 슬라이더",
   "pdf.submission": "PDF 제출과 출력",
-  "pdf.submissionBody": "표지를 붙여 제출 서류를 묶고, 송장 PDF나 XRechnung XML을 만드세요. 스캔·카메라·화면 캡처에서 페이지를 가져오거나, 여러 쪽을 한 장에 배치하고 출력 설정을 프로필로 저장할 수 있습니다. 보관용 PDF/A-1b·2b·3b는 페이지를 이미지로 고정합니다."
+  "pdf.submissionBody": "표지를 붙여 제출 서류를 묶고, 송장 PDF나 XRechnung XML을 만드세요. 스캔·카메라·화면 캡처에서 페이지를 가져오거나, 여러 쪽을 한 장에 배치하고 출력 설정을 프로필로 저장할 수 있습니다. 보관용 PDF/A-1b·2b·3b는 페이지를 이미지로 고정합니다.",
+  "pro.watchIntro": "Pro 소개 영상 보기"
 }
