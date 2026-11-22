@@ -195,4 +195,4 @@ html:not([data-language-ready]) body{animation:fd-language-wait 0s 1.5s both}
 .home .topic-section p { color:#e0e0e0; }
 .home .topic-cards .studio-shot { margin-top:16px; }
 .home #pro-video-section .video-stage { background:#101010; }
-.home #pro-video-section video { width:100%; aspect-ratio:2458/1748; max-height:74vh; object-fit:contain; }
+.home #pro-video-section video { width:100%; aspect-ratio:auto 16/9; max-height:74vh; object-fit:contain; }
