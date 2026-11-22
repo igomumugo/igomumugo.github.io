@@ -1244,5 +1244,6 @@
   "timeline.regionsAlt": "異なる効果を設定した2つの領域と強さのスライダー",
   "pdf.submission": "PDFの提出・印刷準備",
   "pdf.submissionBody": "表紙を付けて提出書類をまとめたり、請求書をPDFやXRechnung XMLで作成したりできます。スキャナ、カメラ、画面キャプチャからページを取り込み、複数ページを1枚に配置し、出力設定をプロファイルに保存できます。PDF/A-1b・2b・3bへの書き出しでは各ページが画像になります。",
-  "pro.watchIntro": "Pro の紹介動画を見る"
+  "pro.watchIntro": "Pro の紹介動画を見る",
+  "pro.overview": "Pro の紹介"
 }

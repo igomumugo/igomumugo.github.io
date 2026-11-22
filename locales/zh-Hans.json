@@ -1244,5 +1244,6 @@
   "timeline.regionsAlt": "使用不同效果的两个区域和效果强度滑块",
   "pdf.submission": "准备提交或打印的 PDF",
   "pdf.submissionBody": "添加封面并合并提交材料，或生成 PDF 发票和 XRechnung XML 文件。从扫描仪、摄像头或屏幕截图导入页面，将多页排在一张纸上，并保存输出配置。导出为 PDF/A-1b、2b 或 3b 时，各页会转换成图像。",
-  "pro.watchIntro": "观看 Pro 介绍视频"
+  "pro.watchIntro": "观看 Pro 介绍视频",
+  "pro.overview": "Pro 介绍"
 }

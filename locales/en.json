@@ -1244,5 +1244,6 @@
   "timeline.regionsAlt": "Two regions with different effects and an intensity slider",
   "pdf.submission": "Prepare PDFs for submission or print",
   "pdf.submissionBody": "Assemble a submission with a cover page, or create a PDF invoice or XRechnung XML. Import pages from a scanner, camera or screen capture, lay out multiple pages per sheet and save output profiles. PDF/A-1b, 2b and 3b exports preserve each page as an image.",
-  "pro.watchIntro": "Watch the Pro introduction"
+  "pro.watchIntro": "Watch the Pro introduction",
+  "pro.overview": "Pro overview"
 }

@@ -1244,5 +1244,6 @@
   "timeline.regionsAlt": "兩個套用不同效果的區域與效果強度滑桿",
   "pdf.submission": "準備提交或列印的 PDF",
   "pdf.submissionBody": "加入封面並彙整提交文件，或製作 PDF 發票與 XRechnung XML 檔。從掃描器、相機或螢幕截圖匯入頁面，將多頁配置在一張紙上，並儲存輸出設定檔。輸出為 PDF/A-1b、2b 或 3b 時，每一頁都會轉為影像。",
-  "pro.watchIntro": "觀看 Pro 介紹影片"
+  "pro.watchIntro": "觀看 Pro 介紹影片",
+  "pro.overview": "Pro 介紹"
 }

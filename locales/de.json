@@ -1244,5 +1244,6 @@
   "timeline.regionsAlt": "Zwei Bereiche mit unterschiedlichen Effekten und ein Regler für die Stärke",
   "pdf.submission": "PDFs für Abgabe und Druck vorbereiten",
   "pdf.submissionBody": "Stellen Sie Unterlagen mit Deckblatt zusammen oder erstellen Sie Rechnungen als PDF oder XRechnung-XML. Importieren Sie Seiten vom Scanner, aus der Kamera oder aus Bildschirmaufnahmen, platzieren Sie mehrere Seiten auf einem Blatt und speichern Sie Ausgabeprofile. Beim Export als PDF/A-1b, 2b oder 3b wird jede Seite als Bild gespeichert.",
-  "pro.watchIntro": "Pro-Vorstellung ansehen"
+  "pro.watchIntro": "Pro-Vorstellung ansehen",
+  "pro.overview": "Pro im Überblick"
 }

@@ -1244,5 +1244,6 @@
   "timeline.regionsAlt": "Deux zones traitées différemment et un curseur d’intensité",
   "pdf.submission": "Préparer des PDF pour un dépôt ou une impression",
   "pdf.submissionBody": "Assemblez un dossier avec une page de garde ou créez une facture au format PDF ou XML XRechnung. Importez des pages depuis un scanner, un appareil photo ou une capture d’écran, placez plusieurs pages sur une feuille et enregistrez vos profils de sortie. Les exports PDF/A-1b, 2b et 3b convertissent chaque page en image.",
-  "pro.watchIntro": "Voir la présentation de Pro"
+  "pro.watchIntro": "Voir la présentation de Pro",
+  "pro.overview": "Présentation de Pro"
 }
