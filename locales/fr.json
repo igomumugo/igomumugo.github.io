@@ -1165,8 +1165,8 @@
   "current.stdRenameAlt": "Aperçu des noms avec le préfixe « 2026- »",
   "current.proWorkspaceAlt": "Espace de travail de Pro 1.38 avec un dossier et une app dans le lanceur à gauche",
   "current.paletteStep": "Dans les réglages d’apparence, ouvrez la palette d’image et choisissez une image. Extrayez les couleurs assorties pour comparer les palettes claire et sombre. Appliquez le résultat ou enregistrez un fichier de thème.",
-  "current.earlier": "Captures et guides des versions précédentes",
-  "current.earlierNote": "Les captures et guides publiés précédemment suivent. Les guides ci-dessus indiquent les noms et emplacements actuels des commandes.",
+  "current.earlier": "Guide détaillé par fonction",
+  "current.earlierNote": "Les captures de ce guide ont été refaites avec l’édition standard 1.25 et Pro 1.38 dans chaque langue. Les écrans publiés à l’origine avec la 1.01 sont conservés dans l’archive juste en dessous.",
   "current.stdOriginals": "Captures originales en anglais de l’édition standard 1.25",
   "current.proGallery": "Éditeurs et outils de fichiers dans Pro 1.38",
   "current.photoStep": "Ouvrez une photo pour la recadrer ou la faire pivoter, puis choisissez le format de sortie en bas. Dans un collage, sélectionnez une case photo. Faites glisser un bord ou un coin pour la redimensionner, ou la poignée ronde du haut pour la faire pivoter.",
@@ -1176,5 +1176,9 @@
   "current.frames": "Poignées de taille et de rotation d’une case sélectionnée",
   "current.mediaTitle": "Modifier un extrait audio ou vidéo",
   "current.filesTitle": "Convertir, archiver et partager des fichiers",
-  "current.proRename": "Choisissez « Renommer » dans le menu Fichier. Si un seul fichier est sélectionné, saisissez son nouveau nom sur place. À partir de deux fichiers, la fenêtre de renommage par lot s’ouvre. Avec une licence Pro active, vous pouvez y choisir un dossier pour appliquer la même règle aux fichiers qu’il contient directement."
+  "current.proRename": "Choisissez « Renommer » dans le menu Fichier. Si un seul fichier est sélectionné, saisissez son nouveau nom sur place. À partir de deux fichiers, la fenêtre de renommage par lot s’ouvre. Avec une licence Pro active, vous pouvez y choisir un dossier pour appliquer la même règle aux fichiers qu’il contient directement.",
+  "guide.originals101": "Écrans publiés à l’origine avec l’édition standard 1.01 (interface en coréen)",
+  "guide.shot.tags125": "Un fichier avec les étiquettes rouge et bleue et la liste des étiquettes dans la barre latérale",
+  "guide.shot.taildrop125": "La fenêtre Envoyer avec Taildrop avec les fichiers et les appareils destinataires",
+  "guide.cap.taildrop125": "Choisissez un appareil destinataire, puis cliquez sur Envoyer. <span>Cliquez pour agrandir</span>"
 }

@@ -1165,8 +1165,8 @@
   "current.stdRenameAlt": "Vorschau der Namen mit dem Präfix „2026-“",
   "current.proWorkspaceAlt": "Arbeitsbereich in Pro 1.38 mit Ordner und App in der linken Starterleiste",
   "current.paletteStep": "Öffnen Sie in den Einstellungen zum Erscheinungsbild die Bildpalette und wählen Sie ein Bild. Lassen Sie passende Farben extrahieren, vergleichen Sie die helle und dunkle Palette und wenden Sie das Ergebnis an oder sichern Sie es als Themendatei.",
-  "current.earlier": "Bildschirmfotos und Anleitungen früherer Versionen",
-  "current.earlierNote": "Es folgen die früher veröffentlichten Anleitungen und Bildschirmfotos. Die aktuellen Menünamen und Positionen finden Sie oben.",
+  "current.earlier": "Ausführliche Anleitung nach Funktion",
+  "current.earlierNote": "Die Bildschirmfotos dieser Anleitung wurden mit Standard 1.25 und Pro 1.38 in der jeweiligen Sprache neu aufgenommen. Die zuerst mit 1.01 veröffentlichten Bilder finden Sie im Archiv direkt darunter.",
   "current.stdOriginals": "Ursprüngliche englische Bildschirmfotos aus Standard 1.25",
   "current.proGallery": "Editoren und Dateiwerkzeuge in Pro 1.38",
   "current.photoStep": "Öffnen Sie ein Foto, schneiden oder drehen Sie es und wählen Sie unten das Ausgabeformat. Wählen Sie in einer Collage ein Fotofeld. Ziehen Sie an Kanten oder Ecken, um die Größe zu ändern, und am runden Griff darüber, um es zu drehen.",
@@ -1176,5 +1176,9 @@
   "current.frames": "Griffe für Größe und Drehung eines ausgewählten Fotofelds",
   "current.mediaTitle": "Audio- und Videoausschnitte bearbeiten",
   "current.filesTitle": "Dateien konvertieren, archivieren und teilen",
-  "current.proRename": "Wählen Sie „Umbenennen“ im Menü „Datei“. Bei einer ausgewählten Datei geben Sie den neuen Namen direkt ein. Ab zwei Dateien öffnet sich das Fenster zum gemeinsamen Umbenennen. Mit aktiver Pro-Lizenz können Sie dort einen Ordner auswählen und dieselbe Regel auf die direkt darin enthaltenen Dateien anwenden."
+  "current.proRename": "Wählen Sie „Umbenennen“ im Menü „Datei“. Bei einer ausgewählten Datei geben Sie den neuen Namen direkt ein. Ab zwei Dateien öffnet sich das Fenster zum gemeinsamen Umbenennen. Mit aktiver Pro-Lizenz können Sie dort einen Ordner auswählen und dieselbe Regel auf die direkt darin enthaltenen Dateien anwenden.",
+  "guide.originals101": "Zuerst veröffentlichte Bilder von Standard 1.01 (koreanische Oberfläche)",
+  "guide.shot.tags125": "Eine Datei mit rotem und blauem Tag und die Tag-Liste in der Seitenleiste",
+  "guide.shot.taildrop125": "Das Fenster „Mit Taildrop senden“ mit den Dateien und den Empfängergeräten",
+  "guide.cap.taildrop125": "Empfängergerät wählen und auf Senden klicken. <span>Bild zum Vergrößern anklicken</span>"
 }

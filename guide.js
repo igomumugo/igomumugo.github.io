@@ -21,26 +21,22 @@ function updateThemeCaption() {
 }
 document.querySelectorAll('[data-theme]').forEach(button => button.addEventListener('click', () => {
   document.querySelectorAll('[data-theme]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-  const src = `assets/screenshots/theme-${button.dataset.theme}.jpg`;
-  document.getElementById('theme-image').src = src;
+  // Each language has its own Standard 1.25 capture; i18n.js swaps the language via data-local-shot.
+  const image = document.getElementById('theme-image');
+  image.dataset.localShot = `standard-1.25/guide-theme-${button.dataset.theme}.webp`;
+  const locale = window.FileDeskI18n?.language || 'ko';
+  const version = new URL(document.querySelector('script[src*="i18n.js"]').src).searchParams.get('v') || '1';
+  const src = `assets/screenshots/standard-1.25/${locale}/guide-theme-${button.dataset.theme}.webp?v=${encodeURIComponent(version)}`;
+  image.src = src;
   document.getElementById('theme-link').href = src;
   updateThemeCaption();
 }));
 document.addEventListener('filedesk:language', updateThemeCaption);
 updateThemeCaption();
-function updateProScreenshots() {
-  const language = document.documentElement.lang;
-  const supported = ['ko', 'en', 'ja', 'de', 'fr', 'zh-Hans', 'zh-Hant'];
-  const locale = supported.includes(language) ? language : 'en';
-  document.querySelectorAll('[data-pro-shot]').forEach(link => {
-    const src = `assets/screenshots/pro/${locale}/${link.dataset.proShot}.png?v=pro119`;
-    link.href = src;
-    link.querySelector('img').src = src;
-  });
+// Keep an open enlarged image in step with the language (i18n.js updates the links).
+document.addEventListener('filedesk:language', () => {
   if (dialog.open && opener) {
     dialog.querySelector('img').src = opener.href;
     dialog.querySelector('img').alt = opener.querySelector('img').alt;
   }
-}
-document.addEventListener('filedesk:language', updateProScreenshots);
-updateProScreenshots();
+});

@@ -1165,8 +1165,8 @@
   "current.stdRenameAlt": "套用前綴 2026- 之前的名稱對照",
   "current.proWorkspaceAlt": "Pro 1.38 工作區，左側啟動列中有檔案夾和 App",
   "current.paletteStep": "從外觀設定打開影像調色盤並選擇影像。擷取相配的顏色後，比較淺色與深色配色，再套用結果或儲存為主題檔案。",
-  "current.earlier": "先前版本的畫面與操作說明",
-  "current.earlierNote": "下方保留先前發佈的畫面與功能說明。目前的選單名稱與位置請見上方手冊。",
+  "current.earlier": "依功能的詳細操作說明",
+  "current.earlierNote": "以下各功能的畫面均以各語言執行標準版 1.25 與 Pro 1.38 重新擷取。最初隨 1.01 發佈的畫面保存在下方的封存區。",
   "current.stdOriginals": "標準版 1.25 最初刊登的英文畫面",
   "current.proGallery": "Pro 1.38 編輯器與檔案工具",
   "current.photoStep": "打開照片裁切或旋轉，再從底部的格式選單選擇輸出格式。製作拼貼時，選取相片格，拖曳邊緣或角落的控制點調整大小，拖曳上方圓形控制點旋轉。",
@@ -1176,5 +1176,9 @@
   "current.frames": "所選拼貼相片格的縮放與旋轉控制點",
   "current.mediaTitle": "編輯音訊與影片片段",
   "current.filesTitle": "轉換、壓縮與分享檔案",
-  "current.proRename": "從「檔案」選單選擇「重新命名」。選取一個檔案時，可直接輸入新名稱。選取兩個以上的檔案時，會開啟批次重新命名視窗。啟用 Pro 授權後，可在視窗中選擇一個資料夾，將相同規則套用至直接存放在其中的檔案。"
+  "current.proRename": "從「檔案」選單選擇「重新命名」。選取一個檔案時，可直接輸入新名稱。選取兩個以上的檔案時，會開啟批次重新命名視窗。啟用 Pro 授權後，可在視窗中選擇一個資料夾，將相同規則套用至直接存放在其中的檔案。",
+  "guide.originals101": "最初發佈的標準版 1.01 畫面（韓語介面）",
+  "guide.shot.tags125": "帶有紅色與藍色標籤的檔案及側邊欄的標籤列表",
+  "guide.shot.taildrop125": "選擇要傳送的檔案與接收裝置的「透過 Taildrop 傳送」視窗",
+  "guide.cap.taildrop125": "選擇接收裝置後按「傳送」。<span>點擊圖片放大</span>"
 }

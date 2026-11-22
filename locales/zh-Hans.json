@@ -1165,8 +1165,8 @@
   "current.stdRenameAlt": "应用前缀 2026- 之前的名称对照",
   "current.proWorkspaceAlt": "Pro 1.38 工作区，左侧启动栏中有文件夹和应用",
   "current.paletteStep": "在外观设置中打开图像调色板并选择图像。点按提取匹配颜色，对比浅色和深色方案。然后应用结果或存为主题文件。",
-  "current.earlier": "早期版本截图与操作指南",
-  "current.earlierNote": "下方保留了此前发布的截图和功能说明。当前菜单名称和位置请参阅上方的手册。",
+  "current.earlier": "按功能的详细操作指南",
+  "current.earlierNote": "以下各功能的截图均以各语言运行标准版 1.25 和 Pro 1.38 重新截取。最初随 1.01 发布的截图保存在下方的存档中。",
   "current.stdOriginals": "标准版 1.25 首次发布的英文截图",
   "current.proGallery": "Pro 1.38 编辑器和文件工具",
   "current.photoStep": "打开照片进行裁剪或旋转，在底部格式菜单中选择输出格式。制作拼贴时，选中照片格，拖动边缘或角上的控制点调整大小，拖动上方圆形控制点旋转。",
@@ -1176,5 +1176,9 @@
   "current.frames": "所选拼贴照片格的缩放和旋转控制点",
   "current.mediaTitle": "编辑音频和视频片段",
   "current.filesTitle": "转换、压缩与共享文件",
-  "current.proRename": "从“文件”菜单中选择“重命名”。选中一个文件时，可以直接输入新名称。选中两个或更多文件时，会打开批量重命名窗口。激活 Pro 许可证后，可以在窗口中选择文件夹，对其直属文件应用同一规则。"
+  "current.proRename": "从“文件”菜单中选择“重命名”。选中一个文件时，可以直接输入新名称。选中两个或更多文件时，会打开批量重命名窗口。激活 Pro 许可证后，可以在窗口中选择文件夹，对其直属文件应用同一规则。",
+  "guide.originals101": "最初发布的标准版 1.01 截图（韩语界面）",
+  "guide.shot.tags125": "带有红色和蓝色标签的文件及侧边栏中的标签列表",
+  "guide.shot.taildrop125": "选择要发送的文件和接收设备的“通过 Taildrop 发送”窗口",
+  "guide.cap.taildrop125": "选择接收设备后点击“发送”。<span>点击图片放大</span>"
 }

@@ -1165,8 +1165,8 @@
   "current.stdRenameAlt": "Preview of the 2026- prefix before renaming",
   "current.proWorkspaceAlt": "Pro 1.38 workspace with a folder and an app in the left-hand launcher",
   "current.paletteStep": "Open the image palette in Appearance settings and choose an image. Click Extract Matching Colors to compare the light and dark palettes. Apply the result or save it as a theme file.",
-  "current.earlier": "Earlier screenshots and walkthroughs",
-  "current.earlierNote": "The earlier walkthroughs and screenshots follow. Use the guides above for current menu names and locations.",
+  "current.earlier": "Feature-by-feature walkthrough",
+  "current.earlierNote": "The screens in this walkthrough were recaptured from Standard 1.25 and Pro 1.38 running in each language. The screens first published with 1.01 are kept in the archive just below.",
   "current.stdOriginals": "Original Standard 1.25 screenshots in English",
   "current.proGallery": "Editors and file tools in Pro 1.38",
   "current.photoStep": "Open a photo to crop or rotate it, then choose an output format in the footer. In a collage, select a photo slot. Drag an edge or corner to resize it, or the round handle above it to rotate.",
@@ -1176,5 +1176,9 @@
   "current.frames": "Resize and rotation handles on a selected collage slot",
   "current.mediaTitle": "Edit an audio or video clip",
   "current.filesTitle": "Convert, archive and share files",
-  "current.proRename": "Choose Rename from the File menu. With one file selected, type the new name in place. With two or more, the batch rename window opens. With an active Pro license, use Choose Folder to apply the same rule to the files directly inside a folder."
+  "current.proRename": "Choose Rename from the File menu. With one file selected, type the new name in place. With two or more, the batch rename window opens. With an active Pro license, use Choose Folder to apply the same rule to the files directly inside a folder.",
+  "guide.originals101": "Screens first published with Standard 1.01 (Korean interface)",
+  "guide.shot.tags125": "A file with red and blue tags and the Tags list in the sidebar",
+  "guide.shot.taildrop125": "The Send with Taildrop window with the files to send and the receiving devices",
+  "guide.cap.taildrop125": "Choose a receiving device, then click Send. <span>Click the image to enlarge</span>"
 }
