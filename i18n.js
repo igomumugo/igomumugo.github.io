@@ -89,7 +89,7 @@
   }
   window.FileDeskI18n = { t: translate, get language() { return locale; } };
   select.addEventListener('change', () => setLanguage(select.value, true));
-  const browserLanguage = (navigator.languages || [navigator.language]).map(normalize).find(Boolean);
-  const initial = normalize(new URL(location.href).searchParams.get('lang')) || readPreference() || browserLanguage || 'en';
+  // English is the default; only a ?lang= link or the visitor's own saved choice changes it.
+  const initial = normalize(new URL(location.href).searchParams.get('lang')) || readPreference() || 'en';
   setLanguage(initial);
 })();
