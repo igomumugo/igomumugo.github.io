@@ -169,3 +169,23 @@ footer a{color:var(--ink)}
    The page still appears after 1.5 s if the translation cannot load or scripts are off. */
 html:not([data-language-ready]) body{animation:fd-language-wait 0s 1.5s both}
 @keyframes fd-language-wait{from{opacity:0}to{opacity:1}}
+
+/* Localized Pro walkthroughs share the same figures on the home, guide and tour pages. */
+.studio-entry { display:flex; align-items:center; flex-wrap:wrap; gap:12px 18px; margin:20px 0 36px; }
+.studio-history { margin-block:36px; }
+.studio-history details > summary { cursor:pointer; font-weight:650; }
+.studio-index { margin:20px 0; }
+.studio-index ul { padding-inline-start:20px; columns:2 240px; }
+.studio-index li { break-inside:avoid; padding-block:4px; }
+.studio-release { padding-block:20px; border-top:1px solid var(--line); scroll-margin-block-start:24px; }
+.studio-release h3, .studio-release h4 { margin:0 0 8px; }
+.studio-release p { margin:0; max-width:76ch; line-height:1.65; }
+.studio-gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr)); gap:20px; align-items:start; margin:16px 0; }
+.studio-shot { margin:0; min-width:0; }
+.studio-shot a { display:block; width:fit-content; max-width:100%; cursor:zoom-in; }
+.studio-shot img { display:block; max-width:100%; max-height:480px; width:auto; height:auto; border:1px solid var(--line); border-radius:8px; background:white; }
+.studio-shot figcaption { font-size:14px; line-height:1.5; margin-top:8px; color:var(--muted); }
+.home .studio-shot figcaption { color:#cfcfcf; }
+.home .studio-history details { margin-block:20px; }
+.home .studio-history summary { padding-block:12px; }
+.home .studio-release { border-color:#444; }

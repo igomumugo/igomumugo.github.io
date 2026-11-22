@@ -6,3 +6,6 @@ html{scroll-behavior:smooth;scroll-padding-top:28px}.guide-main{width:min(1240px
 
 /* Screens first published with 1.01, kept below the current walkthrough. */
 .guide-originals{margin-top:18px}.guide-originals .archive-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(180px,100%),1fr));gap:12px;margin-top:14px}.guide-originals .archive-grid a{display:block}.guide-originals .archive-grid img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#fff}
+
+.guide-section .pro-screen { margin:16px 0; }
+.guide-section .pro-screen img { display:block; width:auto; max-width:100%; height:auto; border:1px solid var(--line); border-radius:8px; }
