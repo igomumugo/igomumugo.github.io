@@ -25,7 +25,7 @@
     const controls=[...form.querySelectorAll('button,input,textarea,select')]; const disabled=controls.map(e=>e.disabled);
     controls.forEach(e=>e.disabled=true); if(status) status.textContent='';
     try { await work(); } catch(error) { if(status) status.textContent=errorText(error); }
-    finally { controls.forEach((e,i)=>e.disabled=disabled[i]); delete form.dataset.busy; form.removeAttribute('aria-busy'); adminUI(); $('private').disabled=$('new-category').value==='update'; }
+    finally { controls.forEach((e,i)=>e.disabled=disabled[i]); delete form.dataset.busy; form.removeAttribute('aria-busy'); adminUI(); }
   }
   function badges(post) {
     const wrap=node('div',null,'support-badges');
@@ -51,6 +51,7 @@
   async function loadList() {
     const sequence=++listRequest; $('board-status').textContent=t('loading'); $('empty').hidden=true;
     const query=new URLSearchParams({page:String(page),q:$('search').value,category:$('category-filter').value,edition:$('edition-filter').value});
+    if(admin&&$('status-filter').value)query.set('status',$('status-filter').value);
     try {
       const data=await api('posts?'+query); if(sequence!==listRequest)return;
       posts=data.posts; pages=Math.max(1,Math.ceil(data.total/20));
@@ -113,27 +114,39 @@
     const hidden=checkbox('hidden',post.hidden),pinned=checkbox('pinned',post.pinned),submit=node('button',t('save'),'button secondary'),status=node('p',null,'form-status');submit.type='submit';status.setAttribute('role','status');form.append(label,hidden.label,pinned.label,submit,status);
     form.addEventListener('submit',event=>{event.preventDefault();const data={status:select.value,hidden:hidden.input.checked,pinned:pinned.input.checked,revision:post.revision};busy(form,async()=>{const result=await api('posts/'+post.id,{method:'PATCH',body:data});showPost(result.post);await loadList();},status);});return form;
   }
+  // Tester applications are always private Pro posts; updates are always public.
+  function syncCategory() {
+    const category=$('new-category').value, update=category==='update', tester=category==='tester';
+    if(update)$('private').checked=false;
+    if(tester){$('private').checked=true;$('new-edition').value='pro';}
+    $('private').disabled=update||tester;$('new-edition').disabled=tester;
+    $('tester-note').hidden=!tester;$('write-note').hidden=tester;
+    $('body').setAttribute('aria-describedby',tester?'tester-note':'write-note');
+  }
   function adminUI() {
-    $('admin-button').textContent=t(admin?'logout':'admin');$('admin-note').hidden=!admin;
+    $('admin-button').textContent=t(admin?'logout':'admin');$('admin-bar').hidden=!admin;
+    $('status-filter').hidden=!admin;$('status-filter').closest('.support-filters').classList.toggle('admin-filters',admin);
+    if(!admin)$('status-filter').value='';
     $('update-option').disabled=!admin;$('update-option').hidden=!admin;
     $('author-fields').hidden=admin;$('new-password').required=!admin;$('nickname').required=!admin;
     $('pin-label').hidden=!admin;
     if(!admin && $('new-category').value==='update')$('new-category').value='bug';
+    syncCategory();
   }
   $('new-button').addEventListener('click',()=>{$('create-status').textContent='';showDialog('create-dialog');});
   document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>b.dataset.close==='post-dialog'?closeDetail():$(b.dataset.close).close()));
   $('post-dialog').addEventListener('cancel',event=>{event.preventDefault();closeDetail();});
-  $('new-category').addEventListener('change',()=>{const update=$('new-category').value==='update';if(update)$('private').checked=false;$('private').disabled=update;});
+  $('new-category').addEventListener('change',syncCategory);
   $('create-form').addEventListener('submit',event=>{
     event.preventDefault();const data={id:createID,category:$('new-category').value,edition:$('new-edition').value,title:$('title').value,body:$('body').value,nickname:$('nickname').value,password:$('new-password').value,version:$('version').value,system:$('system').value,private:$('private').checked,pinned:$('pin').checked,website:$('website').value};
     busy($('create-form'),async()=>{
       const result=await api('posts',{method:'POST',body:data});if(result.token)tokens.set(result.post.id,result.token);
-      createID=crypto.randomUUID();$('create-form').reset();$('private').disabled=false;$('create-dialog').close();adminUI();
+      createID=crypto.randomUUID();$('create-form').reset();$('create-dialog').close();adminUI();
       const url=new URL(location.href);url.searchParams.set('post',result.post.id);history.replaceState(null,'',url);showPost(result.post);await loadList();
     },$('create-status'));
   });
   $('search-form').addEventListener('submit',event=>{event.preventDefault();page=1;loadList();});
-  for(const id of ['category-filter','edition-filter'])$(id).addEventListener('change',()=>{page=1;loadList();});
+  for(const id of ['category-filter','edition-filter','status-filter'])$(id).addEventListener('change',()=>{page=1;loadList();});
   $('previous').addEventListener('click',()=>{if(page>1){page--;loadList();}});$('next').addEventListener('click',()=>{if(page<pages){page++;loadList();}});$('refresh').addEventListener('click',loadList);
   $('admin-button').addEventListener('click',async()=>{
     if(admin){try{await api('session',{method:'DELETE'});admin=false;adminUI();if(current)await openPost(current.id);await loadList();}catch(error){$('board-status').textContent=errorText(error);}}

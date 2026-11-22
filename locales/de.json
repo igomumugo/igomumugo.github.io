@@ -1180,5 +1180,9 @@
   "guide.originals101": "Zuerst veröffentlichte Bilder von Standard 1.01 (koreanische Oberfläche)",
   "guide.shot.tags125": "Eine Datei mit rotem und blauem Tag und die Tag-Liste in der Seitenleiste",
   "guide.shot.taildrop125": "Das Fenster „Mit Taildrop senden“ mit den Dateien und den Empfängergeräten",
-  "guide.cap.taildrop125": "Empfängergerät wählen und auf Senden klicken. <span>Bild zum Vergrößern anklicken</span>"
+  "guide.cap.taildrop125": "Empfängergerät wählen und auf Senden klicken. <span>Bild zum Vergrößern anklicken</span>",
+  "support.tester": "Bewerbung als Pro-Tester",
+  "support.adminMode": "Admin-Modus",
+  "support.allStatuses": "Alle Status",
+  "support.testerNote": "Wir suchen Personen, die Pro-Testversionen vorab ausprobieren und Feedback geben. Bitte nennen Sie Ihr Mac-Modell, Ihre macOS-Version, die Funktionen, die Sie am häufigsten nutzen, und eine E-Mail-Adresse, unter der wir Sie erreichen. Bewerbungen werden immer als privater Beitrag gespeichert, den nur Sie und der Administrator lesen können."
 }

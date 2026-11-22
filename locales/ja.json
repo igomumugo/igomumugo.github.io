@@ -1180,5 +1180,9 @@
   "guide.originals101": "最初に公開した通常版 1.01 の画面（韓国語の画面）",
   "guide.shot.tags125": "赤と青のタグが付いたファイルとサイドバーのタグ一覧",
   "guide.shot.taildrop125": "送信するファイルと受信デバイスを選ぶ「Taildrop で送信」ウインドウ",
-  "guide.cap.taildrop125": "受信デバイスを選んで「送信」を押します。<span>画像をクリックして拡大</span>"
+  "guide.cap.taildrop125": "受信デバイスを選んで「送信」を押します。<span>画像をクリックして拡大</span>",
+  "support.tester": "Pro テスター応募",
+  "support.adminMode": "管理者モード",
+  "support.allStatuses": "すべての対応状況",
+  "support.testerNote": "Pro のテストビルドをいち早く試して意見をくださる方を募集しています。お使いの Mac のモデルと macOS のバージョン、よく使う機能、連絡先のメールアドレスをご記入ください。応募は必ず非公開で登録され、投稿者と管理者だけが読めます。"
 }

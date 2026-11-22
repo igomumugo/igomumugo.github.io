@@ -1180,5 +1180,9 @@
   "guide.originals101": "처음 게시한 일반판 1.01 화면 보기 (한국어 화면)",
   "guide.shot.tags125": "빨강·파랑 태그가 붙은 파일과 왼쪽 태그 목록",
   "guide.shot.taildrop125": "보낼 파일과 받을 기기를 고르는 Taildrop으로 보내기 창",
-  "guide.cap.taildrop125": "받을 기기를 고른 뒤 보내기를 누릅니다. <span>이미지를 눌러 크게 보기</span>"
+  "guide.cap.taildrop125": "받을 기기를 고른 뒤 보내기를 누릅니다. <span>이미지를 눌러 크게 보기</span>",
+  "support.tester": "Pro 테스터 지원",
+  "support.adminMode": "관리자 모드",
+  "support.allStatuses": "모든 처리 상태",
+  "support.testerNote": "Pro 테스트 빌드를 먼저 써 보고 의견을 주실 분을 찾습니다. 사용 중인 Mac 모델과 macOS 버전, 주로 쓰는 기능, 연락받을 이메일 주소를 적어 주세요. 지원서는 비밀글로만 등록되어 작성자와 관리자만 읽을 수 있습니다."
 }

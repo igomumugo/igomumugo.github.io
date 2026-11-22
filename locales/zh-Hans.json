@@ -1180,5 +1180,9 @@
   "guide.originals101": "最初发布的标准版 1.01 截图（韩语界面）",
   "guide.shot.tags125": "带有红色和蓝色标签的文件及侧边栏中的标签列表",
   "guide.shot.taildrop125": "选择要发送的文件和接收设备的“通过 Taildrop 发送”窗口",
-  "guide.cap.taildrop125": "选择接收设备后点击“发送”。<span>点击图片放大</span>"
+  "guide.cap.taildrop125": "选择接收设备后点击“发送”。<span>点击图片放大</span>",
+  "support.tester": "申请 Pro 测试",
+  "support.adminMode": "管理员模式",
+  "support.allStatuses": "所有处理状态",
+  "support.testerNote": "我们正在寻找愿意抢先试用 Pro 测试版并提供反馈的用户。请填写你的 Mac 型号、macOS 版本、最常用的功能以及可联系的电子邮件地址。申请始终以私密帖子发布，只有你和管理员可以查看。"
 }

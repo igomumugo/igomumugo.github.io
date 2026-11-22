@@ -1180,5 +1180,9 @@
   "guide.originals101": "最初發佈的標準版 1.01 畫面（韓語介面）",
   "guide.shot.tags125": "帶有紅色與藍色標籤的檔案及側邊欄的標籤列表",
   "guide.shot.taildrop125": "選擇要傳送的檔案與接收裝置的「透過 Taildrop 傳送」視窗",
-  "guide.cap.taildrop125": "選擇接收裝置後按「傳送」。<span>點擊圖片放大</span>"
+  "guide.cap.taildrop125": "選擇接收裝置後按「傳送」。<span>點擊圖片放大</span>",
+  "support.tester": "申請 Pro 測試",
+  "support.adminMode": "管理員模式",
+  "support.allStatuses": "所有處理狀態",
+  "support.testerNote": "我們正在尋找願意搶先試用 Pro 測試版並提供意見的使用者。請填寫你的 Mac 型號、macOS 版本、最常用的功能，以及可聯絡的電子郵件地址。申請一律以私密文章發布，只有你和管理員可以閱讀。"
 }

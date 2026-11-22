@@ -1180,5 +1180,9 @@
   "guide.originals101": "Screens first published with Standard 1.01 (Korean interface)",
   "guide.shot.tags125": "A file with red and blue tags and the Tags list in the sidebar",
   "guide.shot.taildrop125": "The Send with Taildrop window with the files to send and the receiving devices",
-  "guide.cap.taildrop125": "Choose a receiving device, then click Send. <span>Click the image to enlarge</span>"
+  "guide.cap.taildrop125": "Choose a receiving device, then click Send. <span>Click the image to enlarge</span>",
+  "support.tester": "Pro tester application",
+  "support.adminMode": "Admin mode",
+  "support.allStatuses": "All statuses",
+  "support.testerNote": "We are looking for people to try Pro test builds early and share feedback. Please include your Mac model, macOS version, the features you use most and an email address where we can reach you. Applications are always posted as private, so only you and the administrator can read them."
 }

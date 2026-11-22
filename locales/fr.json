@@ -1180,5 +1180,9 @@
   "guide.originals101": "Écrans publiés à l’origine avec l’édition standard 1.01 (interface en coréen)",
   "guide.shot.tags125": "Un fichier avec les étiquettes rouge et bleue et la liste des étiquettes dans la barre latérale",
   "guide.shot.taildrop125": "La fenêtre Envoyer avec Taildrop avec les fichiers et les appareils destinataires",
-  "guide.cap.taildrop125": "Choisissez un appareil destinataire, puis cliquez sur Envoyer. <span>Cliquez pour agrandir</span>"
+  "guide.cap.taildrop125": "Choisissez un appareil destinataire, puis cliquez sur Envoyer. <span>Cliquez pour agrandir</span>",
+  "support.tester": "Candidature testeur Pro",
+  "support.adminMode": "Mode administrateur",
+  "support.allStatuses": "Tous les statuts",
+  "support.testerNote": "Nous cherchons des personnes pour essayer en avant-première les versions de test de Pro et donner leur avis. Indiquez votre modèle de Mac, votre version de macOS, les fonctions que vous utilisez le plus et une adresse e-mail où vous joindre. Les candidatures sont toujours publiées en privé : seuls vous et l’administrateur pouvez les lire."
 }
