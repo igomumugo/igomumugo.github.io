@@ -88,6 +88,7 @@
     }
   }
   window.FileDeskI18n = { t: translate, get language() { return locale; } };
+  // The homepage fragment also tracks back and forward navigation.
   const downloadLink = document.querySelector('header nav a[href="#download"]');
   if (downloadLink) {
     const updateDownloadLink = () => {
