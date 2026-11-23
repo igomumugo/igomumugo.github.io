@@ -88,6 +88,18 @@
     }
   }
   window.FileDeskI18n = { t: translate, get language() { return locale; } };
+  const downloadLink = document.querySelector('header nav a[href="#download"]');
+  if (downloadLink) {
+    const updateDownloadLink = () => {
+      if (location.hash === downloadLink.hash) {
+        downloadLink.setAttribute('aria-current', 'location');
+      } else {
+        downloadLink.removeAttribute('aria-current');
+      }
+    };
+    window.addEventListener('hashchange', updateDownloadLink);
+    updateDownloadLink();
+  }
   select.addEventListener('change', () => setLanguage(select.value, true));
   // English is the default; only a ?lang= link or the visitor's own saved choice changes it.
   const initial = normalize(new URL(location.href).searchParams.get('lang')) || readPreference() || 'en';
