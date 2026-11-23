@@ -3,6 +3,17 @@
   const video = document.getElementById('intro-video');
   const buttons = [...document.querySelectorAll('[data-video]')];
   const proVideo = document.getElementById('pro-video');
+  // A bookmark can point to a feature or player inside a collapsed homepage section.
+  function revealBookmark() {
+    const target = document.getElementById(location.hash.slice(1));
+    const panel = target?.closest('details:not([open])');
+    if (panel) {
+      panel.open = true;
+      target.scrollIntoView({ block: 'start' });
+    }
+  }
+  window.addEventListener('hashchange', revealBookmark);
+  revealBookmark();
   const films = {
     'pro-introduction': {
       key: 'pro.introFilm', language: 'English', duration: '1:12',
