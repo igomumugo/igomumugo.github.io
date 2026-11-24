@@ -1249,7 +1249,7 @@
   "std.organize": "Organize and preview",
   "std.connect": "Connect and transfer",
   "std.browseInfo": "Split panes, tabs, Spotlight search and smart folders",
-  "std.workspaceInfo": "Dockable toolbars, keyboard shortcuts and web links",
+  "std.workspaceInfo": "Dockable toolbars, settings search, keyboard shortcuts and web links",
   "std.organizeInfo": "Temporary shelf, batch renaming and disk usage",
   "std.connectInfo": "Server connections, folder sync and transfers between devices",
   "std.examples": "Workspace examples (English)",

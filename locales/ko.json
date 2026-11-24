@@ -1249,7 +1249,7 @@
   "std.organize": "파일 정리와 미리보기",
   "std.connect": "연결과 전송",
   "std.browseInfo": "분할 창과 탭, Spotlight 검색, 스마트 폴더",
-  "std.workspaceInfo": "도구 막대 배치, 키보드 단축키, 웹 바로가기",
+  "std.workspaceInfo": "도구 막대 배치, 설정 검색, 키보드 단축키, 웹 바로가기",
   "std.organizeInfo": "임시보관함, 일괄 이름 변경, 디스크 사용량",
   "std.connectInfo": "서버 연결, 폴더 동기화, 기기 간 전송",
   "std.examples": "작업 공간 예시 화면 (영어)",

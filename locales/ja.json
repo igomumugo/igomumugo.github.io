@@ -1249,7 +1249,7 @@
   "std.organize": "ファイル整理とプレビュー",
   "std.connect": "接続と転送",
   "std.browseInfo": "分割ペイン、タブ、Spotlight 検索、スマートフォルダ",
-  "std.workspaceInfo": "ツールバーの配置、キーボードショートカット、Web リンク",
+  "std.workspaceInfo": "ツールバーの配置、設定の検索、キーボードショートカット、Web リンク",
   "std.organizeInfo": "一時シェルフ、一括リネーム、ディスク使用量",
   "std.connectInfo": "サーバー接続、フォルダ同期、デバイス間の転送",
   "std.examples": "ワークスペースの画面例（英語）",

@@ -1249,7 +1249,7 @@
   "std.organize": "Dateien ordnen und ansehen",
   "std.connect": "Verbindungen und Übertragungen",
   "std.browseInfo": "Geteilte Ansichten, Tabs, Spotlight-Suche und intelligente Ordner",
-  "std.workspaceInfo": "Andockbare Symbolleisten, Tastenkürzel und Weblinks",
+  "std.workspaceInfo": "Andockbare Symbolleisten, Einstellungssuche, Tastenkürzel und Weblinks",
   "std.organizeInfo": "Zwischenablage für Dateien, Stapelumbenennung und Speicherbelegung",
   "std.connectInfo": "Serververbindungen, Ordnersynchronisierung und Geräteübertragungen",
   "std.examples": "Beispiele für den Arbeitsbereich (Englisch)",

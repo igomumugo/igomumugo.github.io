@@ -1249,7 +1249,7 @@
   "std.organize": "Classement et aperçu",
   "std.connect": "Connexions et transferts",
   "std.browseInfo": "Volets, onglets, recherche Spotlight et dossiers intelligents",
-  "std.workspaceInfo": "Barres d’outils déplaçables, raccourcis clavier et liens web",
+  "std.workspaceInfo": "Barres d’outils déplaçables, recherche dans les réglages, raccourcis clavier et liens web",
   "std.organizeInfo": "Étagère temporaire, renommage par lot et occupation du disque",
   "std.connectInfo": "Connexions aux serveurs, synchronisation et transferts entre appareils",
   "std.examples": "Exemples d’espace de travail (en anglais)",

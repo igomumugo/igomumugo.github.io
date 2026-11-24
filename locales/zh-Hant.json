@@ -1249,7 +1249,7 @@
   "std.organize": "檔案整理與預覽",
   "std.connect": "連線與傳輸",
   "std.browseInfo": "分割面板、分頁、Spotlight 搜尋與智慧型檔案夾",
-  "std.workspaceInfo": "工具列停駐、鍵盤快速鍵與網頁連結",
+  "std.workspaceInfo": "工具列停駐、設定搜尋、鍵盤快速鍵與網頁連結",
   "std.organizeInfo": "暫存架、批次重新命名與磁碟用量",
   "std.connectInfo": "伺服器連線、資料夾同步與跨裝置傳輸",
   "std.examples": "工作區範例（英文）",
