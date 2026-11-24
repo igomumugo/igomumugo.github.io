@@ -1383,5 +1383,6 @@
   "iconGroups192.title": "Icon groups and Liquid Glass",
   "iconGroups192.body": "Toolbar icons are grouped by role, and the apps, folders, files and web shortcuts on your user toolbar by type, each in a rounded capsule that grows or shrinks as you add or remove icons. Choose a plain capsule or Liquid Glass, with separate colors for the toolbars and the file window buttons.",
   "iconGroups192.more": "Choose the style and color for the toolbars and the file windows in Settings → Appearance → Icon Groups.",
-  "iconGroups192.alt": "Toolbar and file window buttons grouped in Liquid Glass capsules"
+  "iconGroups192.alt": "Toolbar and file window buttons grouped in Liquid Glass capsules",
+  "pro.soon": "FileDesk Pro is coming soon. Launch timing and pricing will be announced on this site; the current download is the standard edition."
 }
