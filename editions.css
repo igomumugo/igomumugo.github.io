@@ -93,30 +93,6 @@ header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
 }
 .pro-catalog h2 { margin:0 0 8px; }
 .pro-catalog > p { margin:0 0 16px; color:var(--muted); }
-.pro-catalog nav {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(min(218px,100%),1fr));
-  grid-auto-rows:1fr;
-  gap:0 26px;
-}
-.pro-catalog nav a {
-  display:flex;
-  align-items:center;
-  min-height:44px;
-  padding:10px 0;
-  border-bottom:1px solid var(--line);
-  border-radius:0;
-  color:var(--blue);
-  line-height:1.45;
-  text-align:start;
-  overflow-wrap:anywhere;
-}
-.pro-catalog nav a:hover, .pro-catalog nav a:focus-visible {
-  color:var(--ink);
-  background:transparent;
-  text-decoration:underline;
-  text-underline-offset:3px;
-}
 .edition-pro-preview .edition-links .button { margin:0; }
 .edition-main .topic-section > p { color:var(--muted); }
 .pro-screen { margin: 0; min-width: 0; }
@@ -134,7 +110,6 @@ header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
 .edition-shot figcaption { margin-top:8px; font-size:14px; line-height:1.5; color:var(--muted); }
 @media(max-width:720px){
   .manual-shots { grid-template-columns:minmax(0,1fr); }
-  .pro-catalog nav { grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:0 14px; }
 }
 .pro-history-nav, .pro-tool-scope, .pro-capture-credit p { color:var(--muted); font-size:14px; }
 .pro-capture-credit { margin:38px 0 20px; }
@@ -190,7 +165,7 @@ header nav a[aria-current="page"] { color: var(--ink); font-weight: 650; }
 .pro-overview .video-current > a { color:var(--blue); }
 .pro-overview .feature-conditions summary { color:var(--ink); }
 .pro-overview .topic-cards .studio-shot { margin-top:14px; }
-.pro-overview .feature-card h2, .pro-overview .video-current h2 { font-size:20px; margin:0 0 8px; }
+.pro-overview .feature-card h3, .pro-overview .video-current h2 { font-size:20px; margin:0 0 8px; }
 @media (max-width:740px) {
   .pro-layout { width:calc(100% - 32px); grid-template-columns:minmax(0,1fr); gap:20px; padding-top:16px; }
   .pro-side-menu { position:static; grid-template-columns:repeat(2,minmax(0,1fr)); }
