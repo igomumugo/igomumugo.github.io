@@ -1,6 +1,7 @@
 const dialog = document.getElementById('image-view');
 let opener;
 document.querySelectorAll('[data-image]').forEach(link => link.addEventListener('click', event => {
+  if (!dialog.showModal || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
   event.preventDefault();
   opener = link;
   const image = dialog.querySelector('img');
@@ -38,5 +39,48 @@ document.addEventListener('filedesk:language', () => {
   if (dialog.open && opener) {
     dialog.querySelector('img').src = opener.href;
     dialog.querySelector('img').alt = opener.querySelector('img').alt;
+  }
+});
+
+const search = document.querySelector('.manual-search');
+const query = search.querySelector('input');
+const results = search.querySelector('[role="status"]');
+const chapters = [...document.querySelectorAll('.manual-chapter')];
+let topicIndex;
+
+function applySearch() {
+  const normalize = text => text.normalize('NFKC').toLocaleLowerCase(document.documentElement.lang);
+  const terms = normalize(query.value.trim()).split(/\s+/).filter(Boolean);
+  if (!topicIndex) {
+    topicIndex = chapters.map(chapter => [...chapter.querySelectorAll('.manual-topic')].map(topic => {
+      const text = [...topic.querySelectorAll('h3,h4,p,li,td,th,figcaption,.manual-edition')].map(node => node.textContent);
+      return { topic, text: normalize([chapter.querySelector('h2').textContent, ...text].join(' ')) };
+    }));
+  }
+  let count = 0;
+  chapters.forEach((chapter, index) => {
+    let matches = 0;
+    topicIndex[index].forEach(({ topic, text }) => {
+      topic.hidden = !terms.every(term => text.includes(term));
+      if (!topic.hidden) matches++;
+    });
+    chapter.hidden = terms.length > 0 && matches === 0;
+    count += matches;
+  });
+  results.textContent = terms.length ? window.FileDeskI18n.t(count ? 'manual.matches' : 'manual.noMatches', { count }) : '';
+}
+function indexLanguage() {
+  topicIndex = null;
+  applySearch();
+  search.hidden = false;
+}
+query.addEventListener('input', applySearch);
+document.addEventListener('filedesk:language', indexLanguage);
+if (document.documentElement.dataset.languageReady) indexLanguage();
+// A contents link or bookmark must still reach a topic hidden by the current search.
+document.addEventListener('filedesk:fragment', () => {
+  if (query.value) {
+    query.value = '';
+    applySearch();
   }
 });

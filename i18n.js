@@ -88,6 +88,25 @@
     }
   }
   window.FileDeskI18n = { t: translate, get language() { return locale; } };
+  // Walkthrough bookmarks can point to a folded topic or to an older anchor inside it.
+  function revealFragment() {
+    const target = document.querySelector(':target');
+    if (!target) return;
+    document.dispatchEvent(new Event('filedesk:fragment'));
+    for (let details = target.closest('details'); details; details = details.parentElement.closest('details')) {
+      details.open = true;
+    }
+    target.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
+  if (document.querySelector('.manual-topic, .studio-history')) {
+    window.addEventListener('hashchange', revealFragment);
+    document.addEventListener('filedesk:language', revealFragment, { once: true });
+    document.addEventListener('click', event => {
+      const link = event.target.closest('a[href^="#"]');
+      if (link && link.hash && link.hash === location.hash && !event.defaultPrevented &&
+          !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) revealFragment();
+    });
+  }
   // The homepage fragment also tracks back and forward navigation.
   const downloadLink = document.querySelector('header nav a[href="#download"]');
   if (downloadLink) {

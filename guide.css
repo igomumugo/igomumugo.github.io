@@ -9,3 +9,58 @@ html{scroll-behavior:smooth;scroll-padding-top:28px}.guide-main{width:min(1240px
 
 .guide-section .pro-screen { margin:16px 0; }
 .guide-section .pro-screen img { display:block; width:auto; max-width:100%; height:auto; border:1px solid var(--line); border-radius:8px; }
+
+/* The task index and the walkthroughs share the existing guide typography and colours. */
+.guide-intro { padding-block: clamp(32px, 5vw, 64px) 32px; }
+.guide-intro h1 { margin-top: 0; }
+.guide-layout > article { min-width: 0; }
+.guide-layout .toc { top: 88px; }
+.toc a { color: var(--ink); font-size: 15px; line-height: 1.45; }
+.guide-main [id] { scroll-margin-top: 76px; }
+.guide-section { padding-block: 28px 36px; }
+.manual-chapter > h2, .guide-edition-note > h2 { font-size: clamp(22px, 2.5vw, 30px); margin: 0 0 16px; }
+.first-steps { padding-inline-start: 1.6em; max-width: 70ch; }
+.first-steps li::marker { font-weight: 700; color: var(--blue); }
+.first-steps a { font-weight: 650; }
+.first-steps p { margin: 3px 0 18px; }
+.manual-topic { border-top: 1px solid var(--line); }
+.manual-topic > summary, .manual-index > summary { cursor: pointer; }
+.manual-topic > summary { display: flex; align-items: baseline; gap: 10px; padding: 13px 2px; }
+.manual-topic > summary::-webkit-details-marker { display: none; }
+.manual-topic > summary::after { content: '+'; margin-inline-start: auto; color: var(--muted); }
+.manual-topic[open] > summary::after { content: '−'; }
+.manual-topic > summary h3 { margin: 0; font-size: 17px; line-height: 1.5; font-weight: 620; overflow-wrap: anywhere; }
+.manual-topic > summary:hover, .manual-topic[open] > summary { color: var(--blue); }
+.manual-edition { flex: none; font-size: 12px; font-weight: 650; color: #614786; }
+.manual-topic[open] { padding-bottom: 18px; }
+.manual-topic > p { max-width: 74ch; }
+.manual-topic h4 { font-size: 17px; margin-block: 18px 6px; }
+.manual-topic .guide-howto { border: 0; padding: 0; }
+.manual-chapter :is(.shot, .studio-shot, .edition-shot) { margin: 16px 0; max-width: min(100%, 640px); }
+.manual-chapter figure a[data-image] { display: block; width: fit-content; max-width: 100%; cursor: zoom-in; }
+.manual-chapter figure a[data-image] img {
+  display: block; width: auto; height: auto; max-width: 100%; max-height: min(44vh, 340px); object-fit: contain;
+}
+.manual-index, .manual-release, .manual-tour-links { margin-top: 24px; }
+.manual-tour-links { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.manual-search { margin-top: 18px; }
+.manual-search label { display: block; font-size: 14px; font-weight: 650; }
+.manual-search input { width: min(100%, 32em); padding: 9px 12px; margin-top: 4px; font: inherit; color: var(--ink); background: white; border: 1px solid #9aaec3; border-radius: 8px; }
+.manual-search [role=status] { font-size: 14px; }
+.manual-search [role=status]:empty { display: none; }
+@media (max-width: 900px) {
+  .guide-main [id] { scroll-margin-top: 12px; }
+  .guide-layout .toc nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .guide-layout .toc a { padding: 7px 4px; }
+}
+@media (max-width: 620px) {
+  .guide-intro .button, .guide-intro .text-button { display: inline-block; margin: 10px 14px 0 0; }
+  .guide-layout .toc { padding: 12px; }
+  .manual-topic > summary { gap: 6px; flex-wrap: wrap; }
+  .manual-topic > summary h3 { flex: 1; }
+  .manual-chapter figure a[data-image] img { max-height: min(54vh, 300px); }
+}
+@media print {
+  .manual-search, .manual-topic > summary::after { display: none; }
+  .manual-topic::details-content { display: block; content-visibility: visible; }
+}

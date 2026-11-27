@@ -36,7 +36,7 @@
 .workshop-home .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; border: 0; border-radius: 100px; padding: 11px 23px; font-weight: 680; font-size: 15px; line-height: 1.45; background: var(--blue); color: white; }
 .workshop-home .button:hover { background: #073c9b; }
 .studio-hero .button { margin-top: 21px; }
-.studio-hero-art { display: block; width: min(96%,1080px); height: auto; margin: clamp(24px,2vw,38px) auto 0; mask-image: linear-gradient(to bottom,transparent,#000 3%,#000 95%,transparent),linear-gradient(to right,transparent,#000 8%,#000 90%,transparent); mask-composite: intersect; }
+.studio-hero-art { display: block; width: min(90%,760px); height: auto; margin: clamp(24px,2vw,38px) auto 0; mask-image: linear-gradient(to bottom,transparent,#000 3%,#000 95%,transparent),linear-gradient(to right,transparent,#000 8%,#000 90%,transparent); mask-composite: intersect; }
 .studio-showcase, .studio-library, .studio-comparison, .studio-download { padding-block: clamp(46px,6vw,86px); }
 .studio-showcase h2, .studio-library>h2, .studio-comparison h2, .studio-download h2 { font-size: clamp(33px,3.8vw,56px); margin: 0; }
 .studio-gallery-head { display: flex; justify-content: space-between; align-items: baseline; gap: 18px; margin-bottom: 27px; }
@@ -50,8 +50,8 @@
 .studio-tab[aria-selected="true"]::after { content: '→'; float: right; margin-inline-start: 8px; }
 .studio-panel { grid-column: 2; min-width: 0; }
 .studio-panel p { color: var(--muted); margin: 13px 0 0; }
-.studio-enlarge { display: grid; position: relative; place-items: center; aspect-ratio: 1.85; border-radius: 18px; background: linear-gradient(115deg,#e5f2fd,#bbd6ef); padding: clamp(14px,2.3vw,36px); cursor: zoom-in; }
-.studio-enlarge img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; filter: drop-shadow(0 8px 10px #274c7036); }
+.studio-enlarge { width: min(100%, 660px); max-height: min(50vh, 355px); display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); position: relative; place-items: center; aspect-ratio: 1.85; border-radius: 18px; background: linear-gradient(115deg,#e5f2fd,#bbd6ef); padding: clamp(14px,2.3vw,36px); cursor: zoom-in; }
+.studio-enlarge img { display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: scale-down; filter: drop-shadow(0 8px 10px #274c7036); }
 .studio-enlarge::after { content: '⤢'; position: absolute; right: 9px; bottom: 9px; display: grid; place-items: center; width: 27px; height: 27px; line-height: 1; border-radius: 50%; font-size: 18px; color: var(--ink); background: white; }
 .studio-lightbox { padding: 12px; border: 0; border-radius: 14px; max-width: min(94vw,1460px); background: var(--paper); }
 .studio-lightbox::backdrop { background: #081627ce; }
@@ -132,7 +132,7 @@
 @media (max-width: 480px) {
   .studio-hero h1 { font-size: clamp(42px,11vw,55px); }
   .studio-hero p { max-width: 35ch; }
-  .studio-hero-art { width: 118%; max-width: none; margin-left: -9%; }
+  .studio-hero-art { width: 96%; }
   .studio-hero { padding: 28px 0 18px; }
   .edition-table { font-size: 14px; }
   .edition-table th,.edition-table td { padding: 9px 4px; }
@@ -141,3 +141,10 @@
 @media (prefers-reduced-motion: reduce) {
   .workshop-home *, .workshop-home ::before, .workshop-home ::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+.manual-jumps { justify-content: flex-start; }
+.studio-history > .features, .studio-history > .feature-grid { margin-block: 18px; }
+.studio-history > .studio-link { display: inline-block; margin-block: 10px 22px; }
+.studio-history .manual-preview img, .studio-history .studio-shot img { display: block; width: auto; height: auto; max-width: 100%; max-height: min(42vh, 310px); object-fit: contain; }
+.studio-history .manual-preview { width: fit-content; max-width: 100%; }
+.studio-history .pro-intro-video { max-width: 740px; margin-inline: 0; }
