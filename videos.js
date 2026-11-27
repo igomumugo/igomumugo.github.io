@@ -6,11 +6,13 @@
   // A bookmark can point to a feature or player inside a collapsed homepage section.
   function revealBookmark() {
     const target = document.getElementById(location.hash.slice(1));
-    const panel = target?.closest('details:not([open])');
-    if (panel) {
+    let panel = target?.closest('details:not([open])');
+    if (!panel) return;
+    while (panel) {
       panel.open = true;
-      target.scrollIntoView({ block: 'start' });
+      panel = panel.parentElement?.closest('details:not([open])');
     }
+    target.scrollIntoView({ block: 'start' });
   }
   window.addEventListener('hashchange', revealBookmark);
   revealBookmark();
